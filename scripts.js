@@ -392,47 +392,47 @@ const rose = {
         attaccanti: ['LUKAKU', 'LEAO', 'BETO', 'NZOLA', 'LOZANO','PINAMONTI','PICCOLI'],
     },
 };
+
+// Esempio di dati della classifica
 const classifica = [
   {
-    Posizione: 1,
-    squadra: 'Drink Team',
-    punti: 55,
+    posizione: 1,
+    squadra: 'Squadra A',
+    punti: 25,
     vinte: 8,
     pareggiate: 1,
     perse: 4,
     golFatti: 24,
     golSubiti: 15,
-    puntiTotali: 66.5,
+    puntiTotaliVirgolaMobile: 66.5,
   },
-  {
-    Posizione: 2,
-    squadra: 'Mignottingham Forest FC',
-    punti: 54,
-    vinte: 8,
-    pareggiate: 1,
-    perse: 4,
-    golFatti: 24,
-    golSubiti: 15,
-    puntiTotali: 66.5,
-  },
+  // ... altre squadre
 ];
-// Popolare la tabella della classifica
-const corpoTabellaClassifica = document.getElementById('corpo-tabella-classifica');
 
-classifica.forEach((squadra) => {
-  const riga = document.createElement('tr');
+// Funzione per popolare la tabella della classifica
+function popolaTabellaClassifica() {
+  const corpoTabellaClassifica = document.getElementById('corpo-tabella-classifica');
 
-  // Creare e aggiungere le celle per ogni dato nella riga
-  Object.values(squadra).forEach((valore) => {
-    const cella = document.createElement('td');
-    cella.textContent = valore;
-    riga.appendChild(cella);
+  // Pulisci le righe esistenti
+  corpoTabellaClassifica.innerHTML = '';
+
+  classifica.forEach((squadra) => {
+    const riga = document.createElement('tr');
+
+    // Creare e aggiungere le celle per ogni dato nella riga
+    Object.values(squadra).forEach((valore) => {
+      const cella = document.createElement('td');
+      cella.textContent = valore;
+      riga.appendChild(cella);
+    });
+
+    // Aggiungi la riga al corpo della tabella
+    corpoTabellaClassifica.appendChild(riga);
   });
+}
 
-  // Aggiungi la riga al corpo della tabella
-  corpoTabellaClassifica.appendChild(riga);
-});
-
+// Chiama la funzione popolaTabellaClassifica per visualizzare i dati nella tabella
+popolaTabellaClassifica();
 // Funzione per mostrare le partite della giornata selezionata
 function mostraPartite(giornata) {
     const partiteGiornata = document.getElementById("partite-giornata");
