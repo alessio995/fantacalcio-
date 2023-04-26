@@ -110,3 +110,31 @@ nav {
 .button:hover {
     background-color: #0056b3;
 }
+#immagine-fantamilioni {
+    max-width: 100%; /* Adatta l'immagine alla larghezza del contenitore */
+    height: auto; /* Mantieni le proporzioni dell'immagine */
+    display: block; /* Mostra l'immagine come blocco */
+    margin: 0 auto; /* Centra l'immagine orizzontalmente */
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    max-width: 40px;
+    height: auto;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 20px; /* Aggiungi un margine superiore */
+}
+

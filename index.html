@@ -8,14 +8,20 @@
 </head>
 <body>
     <header>
-        <h1>FANTAMASTER - Chiappette Bianche</h1>
+        <div class="header-top">
+            <h1>FANTAMASTER - Chiappette Bianche</h1>
+        </div>
         <nav>
             <button id="btn-classifica" class="button">Classifica</button>
             <button id="btn-calendario" class="button">Calendario</button>
             <button id="btn-fantallenatori" class="button">Fantallenatori</button>
             <button id="btn-rose-calciatori" class="button">Rose Fantallenatori</button>
+            <button id="btn-fantamilioni" class="button">Situazione Fantamilioni</button>
+
         </nav>
+        
     </header>
+    
     <main>
         <section id="classifiche">
             <h2>Classifica</h2>
@@ -30,9 +36,29 @@
                 <tbody id="corpo-tabella-classifica">
                 </tbody>
             </table>
+            <div class="social-icons">
+                <a href="https://facebook.com/groups/303577406427314/" target="_blank" class="social-icon">
+                    <img src="facebook.png" alt="">
+                </a>
+                <a href="https://chat.whatsapp.com/TUO_LINK_GRUPPO_WHATSAPP" target="_blank" class="social-icon">
+                    <img src="whatsapp.png" alt="">
+                </a>
+                <a href="https://www.fantamaster.it" target="_blank" class="social-icon">
+                    <img src="fantamaster.png" alt="">
+                </a>
+            </div>
         </section>
         <section id="calendario" style="display:none;">
-            <!-- Contenuto del calendario -->
+            <h2>Calendario</h2>
+            <label for="giornata-selezionata">Seleziona la giornata:</label>
+            <select id="giornata-selezionata">
+                <!-- Le opzioni delle giornate saranno aggiunte dinamicamente -->
+            </select>
+            <ul id="partite-giornata">
+                <!-- Le partite della giornata selezionata saranno aggiunte dinamicamente -->
+            </ul>
+        </section>
+        
         </section>
         <section id="fantallenatori" style="display:none;">
             <h2>Fantallenatori</h2>
@@ -45,6 +71,12 @@
             </select>
             <ul id="lista-giocatori"></ul>
         </section>
+        <section id="situazione-fantamilioni" style="display:none;">
+            <img id="immagine-fantamilioni" src="" alt="Situazione Fantamilioni" />
+        </section>
+
+       
+        
     </main>
     <script src="scripts.js"></script>
 </body>
