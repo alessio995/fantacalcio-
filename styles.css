@@ -137,8 +137,7 @@ nav {
     padding: 20px 0;
     margin-top: 20px; /* Aggiungi un margine superiore */
 }
-
-Aggiungi questo codice alla fine del tuo file styles.css */
+/* Aggiungi questo codice alla fine del tuo file styles.css */
 
 /* Media query per dispositivi con schermi di larghezza massima 480px */
 @media screen and (max-width: 480px) {
@@ -152,9 +151,14 @@ Aggiungi questo codice alla fine del tuo file styles.css */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
     }
 
     .button {
+        flex: 1;
         margin: 5px;
+        font-size: 12px;
+        text-align: center;
     }
 }
