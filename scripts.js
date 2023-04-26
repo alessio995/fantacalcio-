@@ -404,7 +404,7 @@ const classifica = [
     perse: 4,
     golFatti: 24,
     golSubiti: 15,
-    puntiTotaliVirgolaMobile: 66.5,
+    puntiTotali: 66.5,
   },
   // ... altre squadre
 ];
