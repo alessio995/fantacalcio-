@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANTAMASTER - Chiappette Bianche</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FANTAMASTER - Chiappette Bianche</h1>
+        <nav>
+            <button id="btn-classifica" class="button">Classifica</button>
+            <button id="btn-calendario" class="button">Calendario</button>
+            <button id="btn-fantallenatori" class="button">Fantallenatori</button>
+            <button id="btn-rose-calciatori" class="button">Rose Fantallenatori</button>
+        </nav>
+    </header>
+    <main>
+        <section id="classifiche">
+            <h2>Classifica</h2>
+            <table id="tabella-classifica">
+                <thead>
+                    <tr>
+                        <th>Posizione</th>
+                        <th>Squadra</th>
+                        <th>Punti</th>
+                    </tr>
+                </thead>
+                <tbody id="corpo-tabella-classifica">
+                </tbody>
+            </table>
+        </section>
+        <section id="calendario" style="display:none;">
+            <!-- Contenuto del calendario -->
+        </section>
+        <section id="fantallenatori" style="display:none;">
+            <h2>Fantallenatori</h2>
+            <ul id="lista-partecipanti"></ul>
+        </section>
+        <section id="rose-giocatori" style="display:none;">
+            <h2>Rose Giocatori</h2>
+            <select id="squadra-selezionata">
+                <option value="" disabled selected>Scegli una squadra</option>
+            </select>
+            <ul id="lista-giocatori"></ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
