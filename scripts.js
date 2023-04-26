@@ -39,7 +39,7 @@ const rose = {
     },
 };
 const classifica = {
-    "AS TROMBA": 28,
+    "AS TROMBA": 70,
     "ASTON BIRRA": 39,
     "BENEVENGO": 30,
     "DRINK TEAM": 55,
