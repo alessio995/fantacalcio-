@@ -431,8 +431,7 @@ function popolaTabellaClassifica() {
   });
 }
 
-// Chiama la funzione popolaTabellaClassifica per visualizzare i dati nella tabella
-popolaTabellaClassifica();
+
 // Funzione per mostrare le partite della giornata selezionata
 function mostraPartite(giornata) {
     const partiteGiornata = document.getElementById("partite-giornata");
@@ -561,3 +560,4 @@ aggiornaListaPartecipanti();
 aggiornaSelectSquadre();
 aggiornaClassifica();
 mostraPartite(1);
+popolaTabellaClassifica();
