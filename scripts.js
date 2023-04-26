@@ -392,14 +392,20 @@ const rose = {
         attaccanti: ['LUKAKU', 'LEAO', 'BETO', 'NZOLA', 'LOZANO','PINAMONTI','PICCOLI'],
     },
 };
-const classifica = {
-    "AS TROMBA": 28,
-    "ASTON BIRRA": 39,
-    "BENEVENGO": 30,
-    "DRINK TEAM": 55,
-    "MIGNOTTINGHAM FOREST FC": 54,
-    "TEAMCHIAPPETTO": 53,
-};
+const classifica = [
+  {
+    posizione: 1,
+    squadra: 'Drink Team',
+    punti: 55,
+    vinte: 8,
+    pareggiate: 1,
+    perse: 4,
+    golFatti: 24,
+    golSubiti: 15,
+    puntiTotali: 66.5,
+  },
+  // ... altre squadre
+];
 
 // Funzione per mostrare le partite della giornata selezionata
 function mostraPartite(giornata) {
