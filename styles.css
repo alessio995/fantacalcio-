@@ -162,3 +162,16 @@ nav {
         text-align: center;
     }
 }
+/* Stile personalizzato per il titolo */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f7a8c;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+/* Aggiungi il seguente codice se non hai già importato il font 'Roboto' */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
