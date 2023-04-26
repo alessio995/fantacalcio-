@@ -404,7 +404,17 @@ const classifica = [
     golSubiti: 15,
     puntiTotali: 66.5,
   },
-  // ... altre squadre
+  {
+    posizione: 2,
+    squadra: 'Mignottingham Forest FC',
+    punti: 54,
+    vinte: 8,
+    pareggiate: 1,
+    perse: 4,
+    golFatti: 24,
+    golSubiti: 15,
+    puntiTotali: 66.5,
+  },
 ];
 // Popolare la tabella della classifica
 const corpoTabellaClassifica = document.getElementById('corpo-tabella-classifica');
