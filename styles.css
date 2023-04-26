@@ -1591,3 +1591,8 @@ th {
     font-size: 14px;
   }
 }
+<div class="tabella-container">
+    <table id="tabella-classifica">
+        ...
+    </table>
+</div>
