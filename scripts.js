@@ -394,7 +394,7 @@ const rose = {
 };
 const classifica = [
   {
-    
+    Posizione: 1,
     squadra: 'Drink Team',
     punti: 55,
     vinte: 8,
@@ -405,7 +405,7 @@ const classifica = [
     puntiTotali: 66.5,
   },
   {
-    
+    Posizione: 2,
     squadra: 'Mignottingham Forest FC',
     punti: 54,
     vinte: 8,
