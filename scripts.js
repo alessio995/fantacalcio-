@@ -406,6 +406,22 @@ const classifica = [
   },
   // ... altre squadre
 ];
+// Popolare la tabella della classifica
+const corpoTabellaClassifica = document.getElementById('corpo-tabella-classifica');
+
+classifica.forEach((squadra) => {
+  const riga = document.createElement('tr');
+
+  // Creare e aggiungere le celle per ogni dato nella riga
+  Object.values(squadra).forEach((valore) => {
+    const cella = document.createElement('td');
+    cella.textContent = valore;
+    riga.appendChild(cella);
+  });
+
+  // Aggiungi la riga al corpo della tabella
+  corpoTabellaClassifica.appendChild(riga);
+});
 
 // Funzione per mostrare le partite della giornata selezionata
 function mostraPartite(giornata) {
