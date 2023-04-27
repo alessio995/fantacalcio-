@@ -392,100 +392,99 @@ const rose = {
         attaccanti: ['LUKAKU', 'LEAO', 'BETO', 'NZOLA', 'LOZANO','PINAMONTI','PICCOLI'],
     },
 };
-
 // Esempio di dati della classifica
 const classifica = [
+    {
+      posizione: 1,
+      squadra: 'DRINK TEAM',
+      punti: 55,
+      vinte: 17,
+      pareggiate: 5,
+      perse: 9,
+      golFatti: 57,
+      golSubiti: 44,
+      puntiTotali: 2278.5,
+    },
   {
-    posizione: 1,
-    squadra: 'DRINK TEAM',
-    punti: 55,
-    vinte: 17,
-    pareggiate: 5,
-    perse: 9,
-    golFatti: 57,
-    golSubiti: 44,
-    puntiTotali: 2278.5,
-  },
-{
-    posizione: 2,
-    squadra: 'MIGHOTTINGHAN FOREST FC',
-    punti: 54,
-    vinte: 15,
-    pareggiate: 7,
-    perse: 9,
-    golFatti: 55,
-    golSubiti: 37,
-    puntiTotali: 2258,
-  },
-{
-    posizione: 3,
-    squadra: 'TEAM CHIAPPETTO',
-    punti: 53,
-    vinte: 15,
-    pareggiate: 8,
-    perse: 8,
-    golFatti: 51,
-    golSubiti: 39,
-    puntiTotali: 2248.5,
-  },
-{
-    posizione: 4,
-    squadra: 'ASTON BIRRA',
-    punti: 39,
-    vinte: 11,
-    pareggiate: 6,
-    perse: 14,
-    golFatti: 47,
-    golSubiti: 51,
-    puntiTotali: 2230.5,
-  },
-{
-    posizione: 5,
-    squadra: 'BENEVENGO',
-    punti: 30,
-    vinte: 8,
-    pareggiate: 6,
-    perse: 17,
-    golFatti: 37,
-    golSubiti: 61,
-    puntiTotali: 2158,
-  },
-{
-    posizione: 6,
-    squadra: 'AS TROMBA',
-    punti: 28,
-    vinte: 6,
-    pareggiate: 10,
-    perse: 15,
-    golFatti: 41,
-    golSubiti: 56,
-    puntiTotali: 2183.5,
-  },
-  // ... altre squadre
-];
-
-// Funzione per popolare la tabella della classifica
+      posizione: 2,
+      squadra: 'MIGHOTTINGHAN FOREST FC',
+      punti: 54,
+      vinte: 15,
+      pareggiate: 7,
+      perse: 9,
+      golFatti: 55,
+      golSubiti: 37,
+      puntiTotali: 2258,
+    },
+  {
+      posizione: 3,
+      squadra: 'TEAM CHIAPPETTO',
+      punti: 53,
+      vinte: 15,
+      pareggiate: 8,
+      perse: 8,
+      golFatti: 51,
+      golSubiti: 39,
+      puntiTotali: 2248.5,
+    },
+  {
+      posizione: 4,
+      squadra: 'ASTON BIRRA',
+      punti: 39,
+      vinte: 11,
+      pareggiate: 6,
+      perse: 14,
+      golFatti: 47,
+      golSubiti: 51,
+      puntiTotali: 2230.5,
+    },
+  {
+      posizione: 5,
+      squadra: 'BENEVENGO',
+      punti: 30,
+      vinte: 8,
+      pareggiate: 6,
+      perse: 17,
+      golFatti: 37,
+      golSubiti: 61,
+      puntiTotali: 2158,
+    },
+  {
+      posizione: 6,
+      squadra: 'AS TROMBA',
+      punti: 28,
+      vinte: 6,
+      pareggiate: 10,
+      perse: 15,
+      golFatti: 41,
+      golSubiti: 56,
+      puntiTotali: 2183.5,
+    },
+    // ... altre squadre
+  ];
+  // Funzione per popolare la tabella della classifica
 function popolaTabellaClassifica() {
-  const corpoTabellaClassifica = document.getElementById('corpo-tabella-classifica');
-
-  // Pulisci le righe esistenti
-  corpoTabellaClassifica.innerHTML = '';
-
-  classifica.forEach((squadra) => {
-    const riga = document.createElement('tr');
-
-    // Creare e aggiungere le celle per ogni dato nella riga
-    Object.values(squadra).forEach((valore) => {
-      const cella = document.createElement('td');
-      cella.textContent = valore;
-      riga.appendChild(cella);
+    const corpoTabellaClassifica = document.getElementById('corpo-tabella-classifica');
+  
+    // Pulisci le righe esistenti
+    corpoTabellaClassifica.innerHTML = '';
+  
+    classifica.forEach((squadra) => {
+      const riga = document.createElement('tr');
+  
+      // Creare e aggiungere le celle per ogni dato nella riga
+      Object.values(squadra).forEach((valore) => {
+        const cella = document.createElement('td');
+        cella.textContent = valore;
+        riga.appendChild(cella);
+      });
+  
+      // Aggiungi la riga al corpo della tabella
+      corpoTabellaClassifica.appendChild(riga);
     });
-
-    // Aggiungi la riga al corpo della tabella
-    corpoTabellaClassifica.appendChild(riga);
-  });
-}
-
+  }
+  
+  
 
 // Funzione per mostrare le partite della giornata selezionata
 function mostraPartite(giornata) {
