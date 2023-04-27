@@ -624,13 +624,15 @@ document.getElementById('btn-asta').addEventListener('click', () => {
   
         const container = document.getElementById('asta-container');
         hot = new Handsontable(container, {
-          data: jsonTable,
-          rowHeaders: true,
-          colHeaders: true,
-          dropdownMenu: true,
-          contextMenu: true,
-          licenseKey: 'non-commercial-and-evaluation',
-        });
+            data: jsonTable,
+            rowHeaders: true,
+            colHeaders: true,
+            dropdownMenu: true,
+            contextMenu: true,
+            licenseKey: 'non-commercial-and-evaluation',
+            stretchH: 'all', // Aggiungi questa riga per adattare la larghezza delle colonne al contenitore
+            autoRowSize: true, // Aggiungi questa riga per adattare automaticamente l'altezza delle righe
+          });
       })
       .catch((error) => {
         console.error('Error fetching the XLSX file:', error);
