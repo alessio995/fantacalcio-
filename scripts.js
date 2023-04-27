@@ -618,3 +618,4 @@ aggiornaSelectSquadre();
 aggiornaClassifica();
 mostraPartite(1);
 popolaTabellaClassifica();
+2
