@@ -1,4 +1,8 @@
+const sections = document.querySelectorAll('main > section');
+let hot;
+
 // Inserisci qui la lista dei partecipanti, rose e giocatori
+
 const calendario = [
     {
         giornata: 1,
@@ -587,7 +591,7 @@ function mostraSezione(idSezione) {
 }
 
   
- // Event listeners per i pulsanti
+// Event listeners per i pulsanti
 document.getElementById('btn-classifica').addEventListener('click', () => mostraSezione('classifiche'));
 document.getElementById('btn-calendario').addEventListener('click', () => mostraSezione('calendario'));
 document.getElementById('btn-fantallenatori').addEventListener('click', () => mostraSezione('fantallenatori'));
@@ -598,6 +602,43 @@ document.getElementById('btn-fantamilioni').addEventListener('click', () => {
   // Assicurati che il percorso dell'immagine sia corretto. Potrebbe essere necessario aggiungere il percorso della cartella, ad esempio 'immagini/fantamilioni.jpg'
   document.getElementById('immagine-fantamilioni').src = 'fantamilioni.jpg';
 });
+
+document.getElementById('btn-asta').addEventListener('click', () => {
+    // Mostra la sezione Asta
+    sections.forEach((section) => {
+      if (section.id === 'asta') {
+        section.style.display = 'block';
+      } else {
+        section.style.display = 'none';
+      }
+    });
+  
+    // Carica il file XLSX dal server Vercel
+    fetch('https://fantacalcio-alessio995.vercel.app/FANTACALCIO_MERCATO_GENNAIO_22.xlsx') // Sostituisci con l'URL del tuo file XLSX su Vercel
+      .then((response) => response.arrayBuffer())
+      .then((data) => {
+        const workbook = XLSX.read(data, { type: 'array' });
+        const sheetName = workbook.SheetNames[0];
+        const sheet = workbook.Sheets[sheetName];
+        const jsonTable = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+  
+        const container = document.getElementById('asta-container');
+        hot = new Handsontable(container, {
+          data: jsonTable,
+          rowHeaders: true,
+          colHeaders: true,
+          dropdownMenu: true,
+          contextMenu: true,
+          licenseKey: 'non-commercial-and-evaluation',
+        });
+      })
+      .catch((error) => {
+        console.error('Error fetching the XLSX file:', error);
+      });
+  });
+  
+
+
 
 // Aggiungi un listener per l'evento "change" al menu a discesa delle giornate
 giornataSelezionata.addEventListener("change", (e) => {
@@ -618,4 +659,3 @@ aggiornaSelectSquadre();
 aggiornaClassifica();
 mostraPartite(1);
 popolaTabellaClassifica();
-2
