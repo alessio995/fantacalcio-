@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+    <!-- Handsontable CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@9.0.1/dist/handsontable.full.min.css">
+
+<!-- Handsontable JS -->
+<script src="https://cdn.jsdelivr.net/npm/handsontable@9.0.1/dist/handsontable.full.min.js"></script>
+
+<!-- XLSX JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FANTAMASTER Lega Chiappette Bianche</title>
@@ -18,6 +27,8 @@
             <button id="btn-rose-calciatori" class="button">Rose Fantallenatori</button>
             <button id="btn-fantamilioni" class="button">Situazione Fantamilioni</button>
             <button id="btn-regolamento" class="button">Regolamento</button>
+             <!-- Inserisci questo codice all'interno del div.nav-links nel tuo HTML -->
+            <button id="btn-asta" class="button">Asta</button>
 
 
         </nav>
@@ -94,7 +105,7 @@
                 <a href="https://chat.whatsapp.com/LprhkyPFFnv6gFBFxKCNgp" target="_blank" class="social-icon">
                     <img src="whatsapp.png" alt="">
                 </a>
-                <a href="https://fantamaster.page.link/DnYUP8a8nZ3UPRqC7" target="_blank" class="social-icon">
+                <a href="https://www.fantamaster.it" target="_blank" class="social-icon">
                     <img src="fantamaster.png" alt="">
                 </a>
             </div>
@@ -125,6 +136,14 @@
         <section id="situazione-fantamilioni" style="display:none;">
             <img id="immagine-fantamilioni" src="" alt="Situazione Fantamilioni" />
         </section>
+        <!-- Aggiorna la sezione "asta" nel tuo HTML -->
+<section id="asta" style="display:none;">
+    <h2>Asta</h2>
+    <div id="asta-container"></div>
+    <button id="save-xlsx" class="button">Salva modifiche</button>
+</section>
+
+
 <div class="tabella-container">
     <table id="tabella-classifica">
         ...
@@ -166,10 +185,22 @@
     </ul>
   </section>
   
+
        
         
     </main>
     <script src="scripts.js"></script>
+    <!-- Inserisci questo codice prima del tag di chiusura </body> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <!-- Inserisci questo codice all'interno del tag <head> del tuo HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@11.0.2/dist/handsontable.full.min.css">
+
+    <!-- Inserisci questo codice prima del tag di chiusura </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@11.0.2/dist/handsontable.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@8.0.0/dist/handsontable.full.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@8.0.0/dist/handsontable.full.min.css">
+
+
 </body>
 </html>
-2
