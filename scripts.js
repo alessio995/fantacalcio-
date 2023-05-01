@@ -1,5 +1,28 @@
 const sections = document.querySelectorAll('main > section');
 let hot;
+// Imposta il tempo rimanente per inserire la formazione
+// Ad esempio: 3 giorni, 2 ore, 30 minuti e 0 secondi
+const countdownEndDate = new Date().getTime() + 1 * 17 * 24 * 60 * 1000 + 2 * 60 * 60 * 1000 + 30 * 60 * 1000;
+
+function updateCountdownTimer() {
+    const now = new Date().getTime();
+    const distance = countdownEndDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+    if (distance < 0) {
+        clearInterval(countdownTimer);
+        document.getElementById("timer").innerHTML = "Tempo scaduto";
+    }
+}
+
+const countdownTimer = setInterval(updateCountdownTimer, 1000);
+updateCountdownTimer();
 
 // Inserisci qui la lista dei partecipanti, rose e giocatori
 
