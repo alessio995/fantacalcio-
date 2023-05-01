@@ -451,7 +451,7 @@ const classifica = [
       perse: 17,
       golFatti: 42,
       golSubiti: 62,
-      puntiTotali: 2248,5,
+      puntiTotali: 2248.5,
     },
   {
       posizione: 6,
