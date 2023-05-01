@@ -406,8 +406,8 @@ const classifica = [
       pareggiate: 6,
       perse: 9,
       golFatti: 59,
-      golSubiti: 44,
-      puntiTotali: 2278.5,
+      golSubiti: 46,
+      puntiTotali: 2352,
     },
   {
       posizione: 2,
@@ -418,7 +418,7 @@ const classifica = [
       perse: 10,
       golFatti: 55,
       golSubiti: 40,
-      puntiTotali: 2258,
+      puntiTotali: 2320,
     },
   {
       posizione: 3,
@@ -427,9 +427,9 @@ const classifica = [
       vinte: 15,
       pareggiate: 8,
       perse: 9,
-      golFatti: 51,
-      golSubiti: 43,
-      puntiTotali: 2248.5,
+      golFatti: 52,
+      golSubiti: 44,
+      puntiTotali: 2318,
     },
   {
       posizione: 4,
@@ -440,7 +440,7 @@ const classifica = [
       perse: 14,
       golFatti: 50,
       golSubiti: 51,
-      puntiTotali: 2230.5,
+      puntiTotali: 2311,
     },
   {
       posizione: 5,
@@ -450,8 +450,8 @@ const classifica = [
       pareggiate: 6,
       perse: 17,
       golFatti: 42,
-      golSubiti: 61,
-      puntiTotali: 2158,
+      golSubiti: 62,
+      puntiTotali: 2248,5,
     },
   {
       posizione: 6,
@@ -462,7 +462,7 @@ const classifica = [
       perse: 15,
       golFatti: 43,
       golSubiti: 58,
-      puntiTotali: 2183.5,
+      puntiTotali: 2257,
     },
     // ... altre squadre
   ];
