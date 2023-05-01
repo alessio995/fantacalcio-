@@ -620,50 +620,12 @@ document.getElementById('btn-calendario').addEventListener('click', () => mostra
 document.getElementById('btn-fantallenatori').addEventListener('click', () => mostraSezione('fantallenatori'));
 document.getElementById('btn-rose-calciatori').addEventListener('click', () => mostraSezione('rose-giocatori'));
 document.getElementById("btn-regolamento").addEventListener('click', () => mostraSezione('regolamento'));
-document.getElementById('btn-fantamilioni').addEventListener('click', () => {
-  mostraSezione('situazione-fantamilioni');
+document.getElementById('btn-fantamilioni').addEventListener('click', () => mostraSezione('situazione-fantamilioni');
   // Assicurati che il percorso dell'immagine sia corretto. Potrebbe essere necessario aggiungere il percorso della cartella, ad esempio 'immagini/fantamilioni.jpg'
   document.getElementById('immagine-fantamilioni').src = 'fantamilioni.jpg';
 });
 
-document.getElementById('btn-asta').addEventListener('click', () => {
-    // Mostra la sezione Asta
-    sections.forEach((section) => {
-      if (section.id === 'asta') {
-        section.style.display = 'block';
-      } else {
-        section.style.display = 'none';
-      }
-    });
 
-  
-    
-});
-    // Carica il file XLSX dal server Vercel
-    fetch('https://fantacalcio-alessio995.vercel.app/FANTACALCIO_MERCATO_GENNAIO_22.xlsx') // Sostituisci con l'URL del tuo file XLSX su Vercel
-      .then((response) => response.arrayBuffer())
-      .then((data) => {
-        const workbook = XLSX.read(data, { type: 'array' });
-        const sheetName = workbook.SheetNames[0];
-        const sheet = workbook.Sheets[sheetName];
-        const jsonTable = XLSX.utils.sheet_to_json(sheet, { header: 1 });
-  
-        const container = document.getElementById('asta-container');
-        hot = new Handsontable(container, {
-            data: jsonTable,
-            rowHeaders: true,
-            colHeaders: true,
-            dropdownMenu: true,
-            contextMenu: true,
-            licenseKey: 'non-commercial-and-evaluation',
-            stretchH: 'all', // Aggiungi questa riga per adattare la larghezza delle colonne al contenitore
-            autoRowSize: true, // Aggiungi questa riga per adattare automaticamente l'altezza delle righe
-          });
-      })
-      .catch((error) => {
-        console.error('Error fetching the XLSX file:', error);
-      });
-  });
   
 
 
