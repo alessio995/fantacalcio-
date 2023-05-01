@@ -636,7 +636,7 @@ document.getElementById('btn-asta').addEventListener('click', () => {
       }
     });
 
-  document.getElementById('btn-formazioni-live').addEventListener('click', () => mostraSezione('formazioni-live'));
+  
     
 });
     // Carica il file XLSX dal server Vercel
