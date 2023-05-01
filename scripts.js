@@ -635,7 +635,10 @@ document.getElementById('btn-asta').addEventListener('click', () => {
         section.style.display = 'none';
       }
     });
-  
+  document.getElementById('btn-formazioni-live').addEventListener('click', function() {
+    hideAllSections();
+    document.getElementById('formazioni-live').style.display = 'block';
+});
     // Carica il file XLSX dal server Vercel
     fetch('https://fantacalcio-alessio995.vercel.app/FANTACALCIO_MERCATO_GENNAIO_22.xlsx') // Sostituisci con l'URL del tuo file XLSX su Vercel
       .then((response) => response.arrayBuffer())
