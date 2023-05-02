@@ -228,3 +228,19 @@ nav {
     background-color: blue;
   }
 }
+// ...
+${sfida.formazione1.titolari.map((giocatore, index) => `
+  <tr class="titolari">
+    <td>${giocatore}</td>
+    <td>${sfida.formazione1.voti[index]}</td>
+    <td>${sfida.formazione2.titolari[index]}</td>
+    <td>${sfida.formazione2.voti[index]}</td>
+  </tr>
+`).join("")}
+// ...
+.titolari {
+  font-weight: bold;
+}
+table {
+  background-color: white; /* Choose a background color that suits your design */
+}
