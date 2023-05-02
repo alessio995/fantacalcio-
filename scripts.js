@@ -642,13 +642,14 @@ function mostraFormazioniLive() {
     fantallenatore1: "BENEVENGO",
     fantallenatore2: "MIGNOTTINGHAM FOREST FC",
     formazione1: {
-      titolari: ["P - Musso", "D - Becao", "D - Scalvini", "D - Acerbi", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "A - Martinez L", "A - Hojlund", "A - El Shaarawy"],
-      panchinari: ["P - Sportiello", "P - Rossi F", "D - Valeri", "D - Parisi F", "D - Bradaric D", "D - Gabbia", "C - Vlasic", "C - Pessina", "C - Pogba", "C - Sabiri", "C - Volpato C", "C - Basic", "A - Okereke", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
+      titolari:  ["P - Rui Patricio", "D - Dodo D", "D - Cuadrado", "D - Celik", "C - Miranchuk", "C - Calhanoglu", "C - Felipe Anderson", "C - Tonali", "A - Sanabria", "A - Vlahovic", "A - Dybala"],
+      panchinari: ["P - Boer", "P - Svilar", "D - Cambiaso", "D - Djimsiti", "D - Hateboer", "D - Lykogiannis", "C - Ricci S", "C - Sensi", "C - Brekalo", "C - Djuricic", "A - Berardi", "A - Ciurria", "A - Shomurodov", "A - Rebic"];
+
       voti: [6, 6, 6, 6, 6,6,6,6,6,6,6]
     },
     formazione2: {
-       titolari: ["P - Onana", "D - Marusic", "D - Dimarco", "D - Toljan", "C - Baldanzi", "C - Messias", "C - Kostic", "C - Pereyra", "A - Leao", "A - Lukaku R", "A - Beto"],
-      panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Ferguson", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
+       titolari:  ["P - Maignan", "D - Rrahmani", "D - Hernandez T", "D - Bastoni", "C - Milinkovic-Savic", "C - Mkhitaryan", "C - Elmas", "C - Ederson J", "A - Immobile", "A - Giroud", "A - Lookman"],
+      panchinari:  ["P - Tatarusanu", "P - Milinkovic-Savic V", "D - Pellegrini Lu", "D - Smalling", "D - Nuytinck", "C - Frattesi", "C - Samardzic", "C - Wijnaldum", "A - Lauriente'", "A - Arnautovic"],
       voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
     }
   },
