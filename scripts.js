@@ -684,7 +684,6 @@ function mostraFormazioniLive() {
  
 
 
-
 function mostraSezione(idSezione) {
     const sezioni = document.querySelectorAll('main > section');
     for (const sezione of sezioni) {
