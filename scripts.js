@@ -1,8 +1,18 @@
 const sections = document.querySelectorAll('main > section');
 let hot;
-// Imposta il tempo rimanente per inserire la formazione
-// Ad esempio: 3 giorni, 2 ore, 30 minuti e 0 secondi
-const countdownEndDate = new Date().getTime() + 1 * 24 * 60 * 60 * 1000 + 17 * 60 * 60 * 1000 + 20 * 60 * 1000;
+
+const countdownEndDate = getSavedCountdownEndDate();
+
+function getSavedCountdownEndDate() {
+    const savedCountdownEndDate = localStorage.getItem('countdownEndDate');
+    if (savedCountdownEndDate) {
+        return parseInt(savedCountdownEndDate, 10);
+    } else {
+        const newCountdownEndDate = new Date().getTime() + 1 * 24 * 60 * 60 * 1000 + 17 * 60 * 60 * 1000 + 20 * 60 * 1000;
+        localStorage.setItem('countdownEndDate', newCountdownEndDate);
+        return newCountdownEndDate;
+    }
+}
 
 function updateCountdownTimer() {
     const now = new Date().getTime();
