@@ -686,7 +686,6 @@ function mostraFormazioniLive() {
       <thead>
         <tr>
   <td colspan="2">Titolari</td>
-<td colspan="2">Voti</td>
   <td colspan="2">Titolari</td>
 
 </tr>
@@ -700,7 +699,6 @@ ${sfida.formazione1.titolari.map((giocatore, index) => `
 `).join("")}
 <tr>
   <td colspan="2">Panchinari</td>
-<td colspan="2">Voti</td>
   <td colspan="2">Panchinari</td>
 
 </tr>
