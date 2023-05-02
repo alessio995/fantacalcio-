@@ -17,25 +17,26 @@ function getSavedCountdownEndDate() {
 
 
 
-function updateCountdownTimer() {
-    const now = new Date().getTime();
-    const distance = countdownEndDate - now;
+function updateTimer() {
+  const timerElement = document.getElementById('timer');
+  const endTime = new Date(timerElement.getAttribute('data-end-time'));
+  const now = new Date();
+  const timeRemaining = endTime - now;
 
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  if (timeRemaining > 0) {
+    const seconds = Math.floor((timeRemaining / 1000) % 60);
+    const minutes = Math.floor((timeRemaining / (1000 * 60)) % 60);
+    const hours = Math.floor((timeRemaining / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
 
-    document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-    if (distance < 0) {
-        clearInterval(countdownTimer);
-        document.getElementById("timer").innerHTML = "Tempo scaduto";
-    }
+    timerElement.textContent = `${days} giorni, ${hours} ore, ${minutes} minuti, ${seconds} secondi`;
+  } else {
+    timerElement.textContent = 'Tempo esaurito';
+  }
 }
 
-const countdownTimer = setInterval(updateCountdownTimer, 1000);
-updateCountdownTimer();
+updateTimer(); // Aggiorna il timer immediatamente
+setInterval(updateTimer, 1000); // Aggiorna il timer ogni secondo
 
 
 // Inserisci qui la lista dei partecipanti, rose e giocatori
