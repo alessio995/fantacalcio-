@@ -631,61 +631,53 @@ function mostraFormazioniLive() {
       formazione1: {
         titolari: ["MUSSO", "BECAO","SCALVINI","ACERBI","KIM","KOOPMEINERS","PELLEGRINI","FAGIOLI","LAUTARO","HOJLUND","EL SHAARAWY"],
         panchinari: ["Giocatore 3", "Giocatore 4"]
+        voti: [6,6,6,6,6,6,6,6,6,6,6]
+
       },
       formazione2: {
         titolari: ["Giocatore 5", "Giocatore 6"],
         panchinari: ["Giocatore 7", "Giocatore 8"]
+        voti: [6,6,6,6,6,6,6,6,6,6,6]
       }
     },
     // ... altre sfide
   ];
 
   sfide.forEach((sfida) => {
-    const table = document.createElement("table");
-    table.innerHTML = `
-      <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
-      <thead>
-        <tr>
-          <th colspan="2">${sfida.fantallenatore1}</th>
-          <th colspan="2">${sfida.fantallenatore2}</th>
-        </tr>
-        <tr>
-          <th>Giocatori</th>
-          <th>Voto</th>
-          <th>Giocatori</th>
-          <th>Voto</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td colspan="2">Titolari</td>
-          <td colspan="2">Titolari</td>
-        </tr>
-        ${sfida.formazione1.titolari.map((giocatore, index) => `
-          <tr>
-            <td>${giocatore}</td>
-            <td>VOTO</td>
-            <td>${sfida.formazione2.titolari[index]}</td>
-            <td>VOTO</td>
-          </tr>
-        `).join("")}
-        <tr>
-          <td colspan="2">Panchinari</td>
-          <td colspan="2">Panchinari</td>
-        </tr>
-        ${sfida.formazione1.panchinari.map((giocatore, index) => `
-          <tr>
-            <td>${giocatore}</td>
-            <td>VOTO</td>
-            <td>${sfida.formazione2.panchinari[index]}</td>
-            <td>VOTO</td>
-          </tr>
-        `).join("")}
-      </tbody>
-    `;
-    formazioniLiveContainer.appendChild(table);
-  });
-}
+  // ...
+  table.innerHTML = `
+    // ...
+    ${sfida.formazione1.titolari.map((giocatore, index) => `
+      <tr>
+        <td>${giocatore}</td>
+        <td>${sfida.formazione1.voti[index]}</td>
+        <td>${sfida.formazione2.titolari[index]}</td>
+        <td>${sfida.formazione2.voti[index]}</td>
+      </tr>
+    `).join("")}
+    // ...
+    ${sfida.formazione1.panchinari.map((giocatore, index) => `
+      <tr>
+        <td>${giocatore}</td>
+        <td>${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
+        <td>${sfida.formazione2.panchinari[index]}</td>
+        <td>${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
+      </tr>
+    `).join("")}
+    // ...
+  `;
+  formazioniLiveContainer.appendChild(table);
+});
+With this implementation, the votes for each player are stored in a single array, and the table generation code retrieves the votes from the appropriate positions in the array. Make sure to update the sfide data with real data, including the actual player names and their votes.
+
+
+
+
+
+Send a message.
+
+
+ChatGPT may produce inaccurate information about people, places, 
 
 function mostraSezione(idSezione) {
     const sezioni = document.querySelectorAll('main > section');
