@@ -643,7 +643,7 @@ function mostraFormazioniLive() {
     fantallenatore2: "MIGNOTTINGHAM FOREST FC",
     formazione1: {
       titolari:  ["P - Rui Patricio", "D - Dodo D", "D - Cuadrado", "D - Celik", "C - Miranchuk", "C - Calhanoglu", "C - Felipe Anderson", "C - Tonali", "A - Sanabria", "A - Vlahovic", "A - Dybala"],
-      panchinari: ["P - Boer", "P - Svilar", "D - Cambiaso", "D - Djimsiti", "D - Hateboer", "D - Lykogiannis", "C - Ricci S", "C - Sensi", "C - Brekalo", "C - Djuricic", "A - Berardi", "A - Ciurria", "A - Shomurodov", "A - Rebic"];
+      panchinari: ["P - Boer", "P - Svilar", "D - Cambiaso", "D - Djimsiti", "D - Hateboer", "D - Lykogiannis", "C - Ricci S", "C - Sensi", "C - Brekalo", "C - Djuricic", "A - Berardi", "A - Ciurria", "A - Shomurodov", "A - Rebic"],
 
       voti: [6, 6, 6, 6, 6,6,6,6,6,6,6]
     },
@@ -666,7 +666,7 @@ function mostraFormazioniLive() {
       panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Ferguson", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
       voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
     }
-  },
+  }
   ];
 
   sfide.forEach((sfida) => {
