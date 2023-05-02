@@ -269,3 +269,17 @@ table {
     animation: lampeggiare 1s linear infinite;
   }
 </style>
+/* altri stili */
+
+.titolare {
+  font-weight: bold;
+  color: black;
+  animation: blink 1s infinite;
+}
+
+.panchinari {
+  font-weight: normal;
+  color: black;
+}
+
+/* altri stili */
