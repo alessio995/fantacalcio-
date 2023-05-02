@@ -674,29 +674,45 @@ function mostraFormazioniLive() {
     const table = document.createElement("table");
     const sommaTitolari1 = sfida.formazione1.voti.slice(0, sfida.formazione1.titolari.length).reduce((a, b) => a + b, 0);
     const sommaTitolari2 = sfida.formazione2.voti.slice(0, sfida.formazione2.titolari.length).reduce((a, b) => a + b, 0);
+    const tuttiIGiocatori = [
+  ...sfida.formazione1.titolari,
+  ...sfida.formazione1.panchinari,
+  ...sfida.formazione2.titolari,
+  ...sfida.formazione2.panchinari,
+];
+
     table.innerHTML = `
       <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
       <thead>
         <tr>
-          <th colspan="2">${sfida.fantallenatore1}</th>
-          <th colspan="2">${sfida.fantallenatore2}</th>
-        </tr>
-        <tr>
-          <th>Giocatori</th>
-          <th>Voto</th>
-          <th>Giocatori</th>
-          <th>Voto</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td colspan="2" class="fantallenatore">${sfida.fantallenatore1}</td>
-          <td colspan="2" class="fantallenatore">${sfida.fantallenatore2}</td>
-        </tr>
-        <tr>
-          <td colspan="2">Titolari</td>
-          <td colspan="2">Titolari</td>
-        </tr>
+  <td colspan="2">Titolari</td>
+  <td colspan="2">Titolari</td>
+</tr>
+${sfida.formazione1.titolari.map((giocatore, index) => `
+  <tr>
+    <td class="titolari-nome">${giocatore}</td>
+    <td class="titolari-voto lampeggiare">${sfida.formazione1.voti[index]}</td>
+    <td class="titolari-nome">${sfida.formazione2.titolari[index]}</td>
+    <td class="titolari-voto lampeggiare">${sfida.formazione2.voti[index]}</td>
+  </tr>
+`).join("")}
+<tr>
+  <td colspan="2">Panchinari</td>
+  <td colspan="2">Panchinari</td>
+</tr>
+${sfida.formazione1.panchinari.map((giocatore, index) => `
+  <tr>
+    <td class="panchinari-nome">${giocatore}</td>
+    <td class="panchinari-voto">${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
+    <td class="panchinari-nome">${sfida.formazione2.panchinari[index]}</td>
+    <td class="panchinari-voto">${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
+  </tr>
+`).join("")}
+<tr>
+  <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari1}</td>
+  <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari2}</td>
+</tr>
+
         ${sfida.formazione1.titolari.map((giocatore, index) => `
           <tr class="titolari">
             <td class="titolari-nome">${giocatore}</td>
