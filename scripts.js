@@ -34,6 +34,7 @@ function updateCountdownTimer() {
 const countdownTimer = setInterval(updateCountdownTimer, 1000);
 updateCountdownTimer();
 
+
 // Inserisci qui la lista dei partecipanti, rose e giocatori
 
 const calendario = [
