@@ -665,7 +665,7 @@ function mostraFormazioniLive() {
       panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Ferguson", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
       voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
     }
-  }
+  },
   ];
 
   sfide.forEach((sfida) => {
