@@ -625,6 +625,34 @@ function mostraFormazioniLive() {
 
   const sfide = [
     {
+      fantallenatore1: ASTON BIRRA",
+      fantallenatore2: "DRINK TEAM",
+      formazione1: {
+        titolari: ["P - Musso", "D - Becao", "D - Scalvini", "D - Acerbi", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "A - Martinez L", "A - Hojlund", "A - El Shaarawy"],
+        panchinari: ["P - Sportiello", "P - Rossi F", "D - Valeri", "D - Parisi F", "D - Bradaric D", "D - Gabbia", "C - Vlasic", "C - Pessina", "C - Pogba", "C - Sabiri", "C - Volpato C", "C - Basic", "A - Okereke", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
+        voti: [6, 6, 6, 6, 6,6,6,6,6,6,6]
+      },
+      formazione2: {
+        titolari: ["P - Onana", "D - Marusic", "D - Dimarco", "D - Toljan", "C - Baldanzi", "C - Messias", "C - Kostic", "C - Pereyra", "A - Leao", "A - Lukaku R", "A - Beto"],
+        panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Ferguson", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
+        voti: [6, 6, 6, 6, 6,6,6,6,6,6,6]
+      }
+    },
+    {
+      fantallenatore1: "BENEVENGO",
+      fantallenatore2: "MIGNOTTINGHAM FOREST FC",
+      formazione1: {
+        titolari: ["P - Musso", "D - Becao", "D - Scalvini", "D - Acerbi", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "A - Martinez L", "A - Hojlund", "A - El Shaarawy"],
+        panchinari: ["P - Sportiello", "P - Rossi F", "D - Valeri", "D - Parisi F", "D - Bradaric D", "D - Gabbia", "C - Vlasic", "C - Pessina", "C - Pogba", "C - Sabiri", "C - Volpato C", "C - Basic", "A - Okereke", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
+        voti: [6, 6, 6, 6, 6,6,6,6,6,6,6]
+      },
+      formazione2: {
+        titolari: ["P - Onana", "D - Marusic", "D - Dimarco", "D - Toljan", "C - Baldanzi", "C - Messias", "C - Kostic", "C - Pereyra", "A - Leao", "A - Lukaku R", "A - Beto"],
+        panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Ferguson", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
+        voti: [6, 6, 6, 6, 6,6,6,6,6,6,6]
+      }
+    },
+    {
       fantallenatore1: "AS TROMBA",
       fantallenatore2: "TEAM CHIAPPETTO",
       formazione1: {
