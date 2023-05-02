@@ -711,13 +711,19 @@ function mostraFormazioniLive() {
           <td colspan="2">Panchinari</td>
           <td colspan="2">Panchinari</td>
         </tr>
-        // ...
+        ${sfida.formazione1.panchinari.map((giocatore, index) => `
+          <tr>
+            <td>${giocatore}</td>
+            <td>${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
+            <td>${sfida.formazione2.panchinari[index]}</td>
+            <td>${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
+          </tr>
+        `).join("")}
       </tbody>
     `;
     formazioniLiveContainer.appendChild(table);
   });
 }
-
 function mostraSezione(idSezione) {
   const sezioni = document.querySelectorAll('main > section');
   for (const sezione of sezioni) {
