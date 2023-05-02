@@ -646,7 +646,9 @@ function mostraFormazioniLive() {
   sfide.forEach((sfida) => {
     const table = document.createElement("table");
   table.innerHTML = `
-    // ...
+      <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
+      <thead>
+        <tr>
     ${sfida.formazione1.titolari.map((giocatore, index) => `
       <tr>
         <td>${giocatore}</td>
