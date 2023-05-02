@@ -630,15 +630,11 @@ function mostraFormazioniLive() {
       fantallenatore2: "Luigi",
       formazione1: {
         titolari: ["Giocatore 1", "Giocatore 2"],
-        titolariVoti: [6, 7],
-        panchinari: ["Giocatore 3", "Giocatore 4"],
-        panchinariVoti: [5, 6]
+        panchinari: ["Giocatore 3", "Giocatore 4"]
       },
       formazione2: {
         titolari: ["Giocatore 5", "Giocatore 6"],
-        titolariVoti: [7, 8],
-        panchinari: ["Giocatore 7", "Giocatore 8"],
-        panchinariVoti: [4, 6]
+        panchinari: ["Giocatore 7", "Giocatore 8"]
       }
     },
     // ... altre sfide
@@ -650,8 +646,12 @@ function mostraFormazioniLive() {
       <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
       <thead>
         <tr>
-          <th colspan="2">${sfida.fantallenatore1}</th>
-          <th colspan="2">${sfida.fantallenatore2}</th>
+          <th rowspan="2">${sfida.fantallenatore1}</th>
+          <th colspan="2">Titolari</th>
+          <th rowspan="2">Voto</th>
+          <th rowspan="2">${sfida.fantallenatore2}</th>
+          <th colspan="2">Titolari</th>
+          <th rowspan="2">Voto</th>
         </tr>
         <tr>
           <th>Giocatori</th>
@@ -663,26 +663,29 @@ function mostraFormazioniLive() {
       <tbody>
         ${sfida.formazione1.titolari.map((giocatore, index) => `
           <tr>
-            <td>${index === 0 ? "Titolari" : ""} ${giocatore}</td>
-            <td>${sfida.formazione1.titolariVoti[index]}</td>
-            <td>${index === 0 ? "Titolari" : ""} ${sfida.formazione2.titolari[index]}</td>
-            <td>${sfida.formazione2.titolariVoti[index]}</td>
+            <td>${index === 0 ? "Titolari" : ""}</td>
+            <td>${giocatore}</td>
+            <td>VOTO</td>
+            <td>${index === 0 ? "Titolari" : ""}</td>
+            <td>${sfida.formazione2.titolari[index]}</td>
+            <td>VOTO</td>
           </tr>
         `).join("")}
-        <tr><td colspan="4"></td></tr> <!-- Aggiungi una riga vuota tra titolari e panchinari -->
         ${sfida.formazione1.panchinari.map((giocatore, index) => `
           <tr>
-            <td>${index === 0 ? "Panchinari" : ""} ${giocatore}</td>
-            <td>${sfida.formazione1.panchinariVoti[index]}</td>
-            <td>${index === 0 ? "Panchinari" : ""} ${sfida.formazione2.panchinari[index]}</td>
-            <td>${sfida.formazione2.panchinariVoti[index]}</td>
+            <td>${index === 0 ? "Panchinari" : ""}</td>
+            <td>${giocatore}</td>
+            <td>VOTO</td>
+            <td>${index === 0 ? "Panchinari" : ""}</td>
+            <td>${sfida.formazione2.panchinari[index]}</td>
+            <td>VOTO</td>
           </tr>
         `).join("")}
       </tbody>
     `;
     formazioniLiveContainer.appendChild(table);
- 
-
+  });
+}
 
 function mostraSezione(idSezione) {
     const sezioni = document.querySelectorAll('main > section');
@@ -694,10 +697,6 @@ function mostraSezione(idSezione) {
 
   
 // Event listeners per i pulsanti
-// Event listener per il pulsante "Formazioni Live"
-document.getElementById("btn-formazioni-live").addEventListener("click", () => {
-  mostraSezione("formazioni-live");
-});
 document.getElementById('btn-classifica').addEventListener('click', () => mostraSezione('classifiche'));
 document.getElementById('btn-calendario').addEventListener('click', () => mostraSezione('calendario'));
 document.getElementById('btn-fantallenatori').addEventListener('click', () => mostraSezione('fantallenatori'));
@@ -767,4 +766,3 @@ aggiornaSelectSquadre();
 aggiornaClassifica();
 mostraPartite(1);
 popolaTabellaClassifica();
-mostraFormazioniLive()
