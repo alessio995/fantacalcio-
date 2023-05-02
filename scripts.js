@@ -623,21 +623,19 @@ function mostraFormazioniLive() {
   const formazioniLiveContainer = document.getElementById("formazioni-live-container");
   formazioniLiveContainer.innerHTML = "";
 
-  // Esempio di dati delle sfide (aggiorna con i dati reali)
   const sfide = [
     {
       fantallenatore1: "AS TROMBA",
       fantallenatore2: "TEAM CHIAPPETTO",
       formazione1: {
-        titolari: ["MUSSO", "BECAO","SCALVINI","ACERBI","KIM","KOOPMEINERS","PELLEGRINI","FAGIOLI","LAUTARO","HOJLUND","EL SHAARAWY"],
-        panchinari: ["Giocatore 3", "Giocatore 4"]
-        voti: [6,6,6,6,6,6,6,6,6,6,6]
-
+        titolari: ["MUSSO", "BECAO"],
+        panchinari: ["Giocatore 3", "Giocatore 4"],
+        voti: [6.5, 7.0, 5.5, 6.0]
       },
       formazione2: {
         titolari: ["Giocatore 5", "Giocatore 6"],
-        panchinari: ["Giocatore 7", "Giocatore 8"]
-        voti: [6,6,6,6,6,6,6,6,6,6,6]
+        panchinari: ["Giocatore 7", "Giocatore 8"],
+        voti: [5.5, 6.0, 4.5, 5.0]
       }
     },
     // ... altre sfide
@@ -664,45 +662,40 @@ function mostraFormazioniLive() {
           <td colspan="2">Titolari</td>
           <td colspan="2">Titolari</td>
         </tr>
-    ${sfida.formazione1.titolari.map((giocatore, index) => `
-      <tr>
-        <td>${giocatore}</td>
-        <td>${sfida.formazione1.voti[index]}</td>
-        <td>${sfida.formazione2.titolari[index]}</td>
-        <td>${sfida.formazione2.voti[index]}</td>
-      </tr>
-    `).join("")}
-    // ...
-    ${sfida.formazione1.panchinari.map((giocatore, index) => `
-      <tr>
-        <td>${giocatore}</td>
-        <td>${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
-        <td>${sfida.formazione2.panchinari[index]}</td>
-        <td>${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
-      </tr>
-    `).join("")}
-    // ...
-  `;
-  formazioniLiveContainer.appendChild(table);
-});
-With this implementation, the votes for each player are stored in a single array, and the table generation code retrieves the votes from the appropriate positions in the array. Make sure to update the sfide data with real data, including the actual player names and their votes.
-
-
-
-
-
-Send a message.
-
-
-ChatGPT may produce inaccurate information about people, places, 
+        ${sfida.formazione1.titolari.map((giocatore, index) => `
+          <tr>
+            <td>${giocatore}</td>
+            <td>${sfida.formazione1.voti[index]}</td>
+            <td>${sfida.formazione2.titolari[index]}</td>
+            <td>${sfida.formazione2.voti[index]}</td>
+          </tr>
+        `).join("")}
+        <tr>
+          <td colspan="2">Panchinari</td>
+          <td colspan="2">Panchinari</td>
+        </tr>
+        ${sfida.formazione1.panchinari.map((giocatore, index) => `
+          <tr>
+            <td>${giocatore}</td>
+            <td>${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
+            <td>${sfida.formazione2.panchinari[index]}</td>
+            <td>${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    `;
+    formazioniLiveContainer.appendChild(table);
+  });
+}
 
 function mostraSezione(idSezione) {
-    const sezioni = document.querySelectorAll('main > section');
-    for (const sezione of sezioni) {
-        sezione.style.display = 'none';
-    }
-    document.getElementById(idSezione).style.display = 'block';
-}  
+  const sezioni = document.querySelectorAll('main > section');
+  for (const sezione of sezioni) {
+    sezione.style.display = 'none';
+  }
+  document.getElementById(idSezione).style.display = 'block';
+}
+
 // Event listeners per i pulsanti
 document.getElementById("btn-formazioni-live").addEventListener("click", () => {
   mostraSezione("formazioni-live");
