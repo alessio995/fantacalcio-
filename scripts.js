@@ -697,6 +697,10 @@ function mostraSezione(idSezione) {
 
   
 // Event listeners per i pulsanti
+document.getElementById("btn-formazioni-live").addEventListener("click", () => {
+  mostraSezione("formazioni-live");
+  mostraFormazioniLive();
+});
 document.getElementById('btn-classifica').addEventListener('click', () => mostraSezione('classifiche'));
 document.getElementById('btn-calendario').addEventListener('click', () => mostraSezione('calendario'));
 document.getElementById('btn-fantallenatori').addEventListener('click', () => mostraSezione('fantallenatori'));
@@ -766,3 +770,4 @@ aggiornaSelectSquadre();
 aggiornaClassifica();
 mostraPartite(1);
 popolaTabellaClassifica();
+mostraFormazioniLive()
