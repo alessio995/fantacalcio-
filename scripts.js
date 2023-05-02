@@ -626,10 +626,10 @@ function mostraFormazioniLive() {
   // Esempio di dati delle sfide (aggiorna con i dati reali)
   const sfide = [
     {
-      fantallenatore1: "Mario",
-      fantallenatore2: "Luigi",
+      fantallenatore1: "AS TROMBA",
+      fantallenatore2: "TEAM CHIAPPETTO",
       formazione1: {
-        titolari: ["Giocatore 1", "Giocatore 2"],
+        titolari: ["MUSSO", "BECAO","SCALVINI","ACERBI","KIM","KOOPMEINERS","PELLEGRINI","FAGIOLI","LAUTARO","HOJLUND","EL SHAARAWY"],
         panchinari: ["Giocatore 3", "Giocatore 4"]
       },
       formazione2: {
