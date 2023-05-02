@@ -644,7 +644,7 @@ function mostraFormazioniLive() {
   ];
 
   sfide.forEach((sfida) => {
-  // ...
+    const table = document.createElement("table");
   table.innerHTML = `
     // ...
     ${sfida.formazione1.titolari.map((giocatore, index) => `
