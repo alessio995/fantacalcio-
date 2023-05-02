@@ -630,11 +630,15 @@ function mostraFormazioniLive() {
       fantallenatore2: "Luigi",
       formazione1: {
         titolari: ["Giocatore 1", "Giocatore 2"],
-        panchinari: ["Giocatore 3", "Giocatore 4"]
+        titolariVoti: [6, 7],
+        panchinari: ["Giocatore 3", "Giocatore 4"],
+        panchinariVoti: [5, 6]
       },
       formazione2: {
         titolari: ["Giocatore 5", "Giocatore 6"],
-        panchinari: ["Giocatore 7", "Giocatore 8"]
+        titolariVoti: [7, 8],
+        panchinari: ["Giocatore 7", "Giocatore 8"],
+        panchinariVoti: [4, 6]
       }
     },
     // ... altre sfide
@@ -660,24 +664,25 @@ function mostraFormazioniLive() {
         ${sfida.formazione1.titolari.map((giocatore, index) => `
           <tr>
             <td>${index === 0 ? "Titolari" : ""} ${giocatore}</td>
-            <td>VOTO</td>
+            <td>${sfida.formazione1.titolariVoti[index]}</td>
             <td>${index === 0 ? "Titolari" : ""} ${sfida.formazione2.titolari[index]}</td>
-            <td>VOTO</td>
+            <td>${sfida.formazione2.titolariVoti[index]}</td>
           </tr>
         `).join("")}
+        <tr><td colspan="4"></td></tr> <!-- Aggiungi una riga vuota tra titolari e panchinari -->
         ${sfida.formazione1.panchinari.map((giocatore, index) => `
           <tr>
             <td>${index === 0 ? "Panchinari" : ""} ${giocatore}</td>
-            <td>VOTO</td>
+            <td>${sfida.formazione1.panchinariVoti[index]}</td>
             <td>${index === 0 ? "Panchinari" : ""} ${sfida.formazione2.panchinari[index]}</td>
-            <td>VOTO</td>
+            <td>${sfida.formazione2.panchinariVoti[index]}</td>
           </tr>
         `).join("")}
       </tbody>
     `;
     formazioniLiveContainer.appendChild(table);
-  });
-}
+ 
+
 
 
 function mostraSezione(idSezione) {
