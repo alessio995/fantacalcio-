@@ -684,7 +684,7 @@ giornataSelezionata.addEventListener("change", (e) => {
 
 
   
-  // Inizializzazione delle funzioni
+  /// Inizializzazione delle funzioni
   
 
 
