@@ -711,12 +711,6 @@ ${sfida.formazione1.panchinari.map((giocatore, index) => `
 <tr>
   <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari1}</td>
   <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari2}</td>
-</tr>
-
-        
-          </tr>
-        `).join("")}
-        // ...
       </tbody>
     `;
     formazioniLiveContainer.appendChild(table);
