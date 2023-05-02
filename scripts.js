@@ -697,6 +697,7 @@ function mostraSezione(idSezione) {
 
   
 // Event listeners per i pulsanti
+document.getElementById("btn-formazioni-live").addEventListener("click", () => mostraSezione("formazioni-live"));
 document.getElementById('btn-classifica').addEventListener('click', () => mostraSezione('classifiche'));
 document.getElementById('btn-calendario').addEventListener('click', () => mostraSezione('calendario'));
 document.getElementById('btn-fantallenatori').addEventListener('click', () => mostraSezione('fantallenatori'));
@@ -717,9 +718,7 @@ document.getElementById('btn-asta').addEventListener('click', () => {
         section.style.display = 'none';
       }
     });
-  document.getElementById("btn-formazioni-live").addEventListener("click", () => {
-  mostraSezione("formazioni-live");
-  });
+
 
 
     // Carica il file XLSX dal server Vercel
