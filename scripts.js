@@ -8,11 +8,12 @@ function getSavedCountdownEndDate() {
     if (savedCountdownEndDate) {
         return parseInt(savedCountdownEndDate, 10);
     } else {
-        const newCountdownEndDate = new Date().getTime() + 1 * 24 * 60 * 60 * 1000 + 4 * 60 * 60 * 1000 + 44 * 60 *1000;
+        const newCountdownEndDate = new Date().getTime() + 1 * 24 * 60 * 60 * 1000 + 4 * 60 * 60 * 1000 + 50 * 60 *1000;
         localStorage.setItem('countdownEndDate', newCountdownEndDate);
         return newCountdownEndDate;
     }
 }
+
 
 function updateCountdownTimer() {
     const now = new Date().getTime();
