@@ -623,7 +623,7 @@ function mostraFormazioniLive() {
   const formazioniLiveContainer = document.getElementById("formazioni-live-container");
   formazioniLiveContainer.innerHTML = "";
 
-  const sfide = const sfide = [
+  const sfide = [
   {
     fantallenatore1: "ASTON BIRRA",
     fantallenatore2: "DRINK TEAM",
