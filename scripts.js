@@ -713,12 +713,7 @@ ${sfida.formazione1.panchinari.map((giocatore, index) => `
   <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari2}</td>
 </tr>
 
-        ${sfida.formazione1.titolari.map((giocatore, index) => `
-          <tr class="titolari">
-            <td class="titolari-nome">${giocatore}</td>
-            <td class="titolari-voto lampeggiare">${sfida.formazione1.voti[index]}</td>
-            <td class="titolari-nome">${sfida.formazione2.titolari[index]}</td>
-            <td class="titolari-voto lampeggiare">${sfida.formazione2.voti[index]}</td>
+        
           </tr>
         `).join("")}
         // ...
