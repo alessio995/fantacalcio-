@@ -619,6 +619,73 @@ function aggiornaClassifica() {
 // ...
 // Le altre funzioni e variabili esistenti
 // ...
+function mostraFormazioniLive() {
+  const formazioniLiveContainer = document.getElementById("formazioni-live-container");
+  formazioniLiveContainer.innerHTML = "";
+
+  // Esempio di dati delle sfide (aggiorna con i dati reali)
+  const sfide = [
+    {
+      fantallenatore1: "Mario",
+      fantallenatore2: "Luigi",
+      formazione1: {
+        titolari: ["Giocatore 1", "Giocatore 2"],
+        panchinari: ["Giocatore 3", "Giocatore 4"]
+      },
+      formazione2: {
+        titolari: ["Giocatore 5", "Giocatore 6"],
+        panchinari: ["Giocatore 7", "Giocatore 8"]
+      }
+    },
+    // ... altre sfide
+  ];
+
+  sfide.forEach((sfida) => {
+    const table = document.createElement("table");
+    table.innerHTML = `
+      <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
+      <thead>
+        <tr>
+          <th rowspan="2">${sfida.fantallenatore1}</th>
+          <th colspan="2">Titolari</th>
+          <th rowspan="2">Voto</th>
+          <th rowspan="2">${sfida.fantallenatore2}</th>
+          <th colspan="2">Titolari</th>
+          <th rowspan="2">Voto</th>
+        </tr>
+        <tr>
+          <th>Giocatori</th>
+          <th>Voto</th>
+          <th>Giocatori</th>
+          <th>Voto</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${sfida.formazione1.titolari.map((giocatore, index) => `
+          <tr>
+            <td>${index === 0 ? "Titolari" : ""}</td>
+            <td>${giocatore}</td>
+            <td>VOTO</td>
+            <td>${index === 0 ? "Titolari" : ""}</td>
+            <td>${sfida.formazione2.titolari[index]}</td>
+            <td>VOTO</td>
+          </tr>
+        `).join("")}
+        ${sfida.formazione1.panchinari.map((giocatore, index) => `
+          <tr>
+            <td>${index === 0 ? "Panchinari" : ""}</td>
+            <td>${giocatore}</td>
+            <td>VOTO</td>
+            <td>${index === 0 ? "Panchinari" : ""}</td>
+            <td>${sfida.formazione2.panchinari[index]}</td>
+            <td>VOTO</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    `;
+    formazioniLiveContainer.appendChild(table);
+  });
+}
 
 function mostraSezione(idSezione) {
     const sezioni = document.querySelectorAll('main > section');
