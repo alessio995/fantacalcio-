@@ -672,6 +672,8 @@ function mostraFormazioniLive() {
 
   sfide.forEach((sfida) => {
     const table = document.createElement("table");
+    const sommaTitolari1 = sfida.formazione1.voti.slice(0, sfida.formazione1.titolari.length).reduce((a, b) => a + b, 0);
+    const sommaTitolari2 = sfida.formazione2.voti.slice(0, sfida.formazione2.titolari.length).reduce((a, b) => a + b, 0);
     table.innerHTML = `
       <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
       <thead>
@@ -692,7 +694,7 @@ function mostraFormazioniLive() {
           <td colspan="2">Titolari</td>
         </tr>
         ${sfida.formazione1.titolari.map((giocatore, index) => `
-          <tr>
+          <tr class="titolari">
             <td>${giocatore}</td>
             <td>${sfida.formazione1.voti[index]}</td>
             <td>${sfida.formazione2.titolari[index]}</td>
@@ -700,17 +702,16 @@ function mostraFormazioniLive() {
           </tr>
         `).join("")}
         <tr>
+          <td>Somma Totale</td>
+          <td>${sommaTitolari1}</td>
+          <td>Somma Totale</td>
+          <td>${sommaTitolari2}</td>
+        </tr>
+        <tr>
           <td colspan="2">Panchinari</td>
           <td colspan="2">Panchinari</td>
         </tr>
-        ${sfida.formazione1.panchinari.map((giocatore, index) => `
-          <tr>
-            <td>${giocatore}</td>
-            <td>${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
-            <td>${sfida.formazione2.panchinari[index]}</td>
-            <td>${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
-          </tr>
-        `).join("")}
+        // ...
       </tbody>
     `;
     formazioniLiveContainer.appendChild(table);
