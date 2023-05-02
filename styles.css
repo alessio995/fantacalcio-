@@ -216,3 +216,15 @@ nav {
         opacity: 1;
     }
 }
+.blink-blue {
+  animation: blinkBlue 1s linear infinite;
+}
+
+@keyframes blinkBlue {
+  0%, 100% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: blue;
+  }
+}
