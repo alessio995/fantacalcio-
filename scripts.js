@@ -631,7 +631,7 @@ function mostraFormazioniLive() {
       titolari: ["P - Terracciano", "D - Carlos Augusto", "D - Di Lorenzo", "D - Maehle", "C - Gonzalez N", "C - Zaccagni", "C - Zielinski", "C - Barella", "A - Dia", "A - Zapata D", "A - Milik"],
       panchinari: ["P - Sirigu", "P - Cerofolini", "D - Udogie", "D - Ferrari G", "D - Romagnoli A", "D - Holm", "C - De Ketelaere", "C - Thorstvedt", "C - Strefezza", "A - Caputo", "A - Dzeko", "A - Caprari", "A - Soule"],
 
-      voti: [5, 6, 6, 6, 10,6,6,6,10,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [5, 6, 6, 6, 10,6,6,6,13,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
       titolari: ["P - Meret", "D - Posch", "D - Lazzari M", "D - Dumfries", "C - Saelemaekers", "C - Brozovic", "C - Di Maria", "C - Luis Alberto", "A - Kvaratskhelia", "A - Osimhen", "A - Abraham"],
