@@ -504,6 +504,34 @@ const classifica = [
     },
     // ... altre squadre
   ];
+function aggiornaVotiGiocatori() {
+  // Sostituisci con la tua chiave API e l'URL dell'API scelta
+  const apiKey = 'cb71c1adbdmshf0e1ca1b94c35afp1ebf60jsn57e7c8790332';
+  const apiUrl = 'api-football-v1.p.rapidapi.com';
+
+  $.ajax({
+    url: apiUrl,
+    headers: { 'X-API-KEY': apiKey },
+    dataType: 'json',
+    success: function (data) {
+      // Elabora i dati dell'API e crea un'output HTML
+      let output = '';
+      data.forEach(function (giocatore) {
+        output += `<p>${giocatore.nome}: ${giocatore.voto}</p>`;
+      });
+
+      // Aggiorna il contenuto del div 'voti-giocatori' con i nuovi voti
+      $('#voti-giocatori').html(output);
+    },
+    error: function (error) {
+      console.error('Errore durante il recupero dei dati:', error);
+    },
+  });
+}
+
+// Aggiorna i voti dei giocatori ogni 60 secondi (1 minuto)
+setInterval(aggiornaVotiGiocatori, 60000);
+
   // Funzione per popolare la tabella della classifica
 function popolaTabellaClassifica() {
     const corpoTabellaClassifica = document.getElementById('corpo-tabella-classifica');
