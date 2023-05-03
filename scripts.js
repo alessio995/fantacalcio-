@@ -747,6 +747,8 @@ ${sfida.formazione1.panchinari.map((giocatore, index) => `
     `;
     formazioniLiveContainer.appendChild(table);
   });
+// Aggiorna i voti dei giocatori
+  aggiornaVotiGiocatori();
 }
 function mostraSezione(idSezione) {
   const sezioni = document.querySelectorAll('main > section');
