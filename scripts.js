@@ -631,7 +631,7 @@ function mostraFormazioniLive() {
       titolari: ["P - Terracciano", "D - Carlos Augusto", "D - Di Lorenzo", "D - Maehle", "C - Gonzalez N", "C - Zaccagni", "C - Zielinski", "C - Barella", "A - Dia", "A - Zapata D", "A - Milik"],
       panchinari: ["P - Sirigu", "P - Cerofolini", "D - Udogie", "D - Ferrari G", "D - Romagnoli A", "D - Holm", "C - De Ketelaere", "C - Thorstvedt", "C - Strefezza", "A - Caputo", "A - Dzeko", "A - Caprari", "A - Soule"],
 
-      voti: [6, 6, 6, 6, 6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [5, 6, 6, 6, 10,6,6,6,10,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
       titolari: ["P - Meret", "D - Posch", "D - Lazzari M", "D - Dumfries", "C - Saelemaekers", "C - Brozovic", "C - Di Maria", "C - Luis Alberto", "A - Kvaratskhelia", "A - Osimhen", "A - Abraham"],
@@ -646,7 +646,7 @@ function mostraFormazioniLive() {
       titolari:  ["P - Rui Patricio", "D - Dodo D", "D - Cuadrado", "D - Celik", "C - Miranchuk", "C - Calhanoglu", "C - Felipe Anderson", "C - Tonali", "A - Sanabria", "A - Vlahovic", "A - Dybala"],
       panchinari: ["P - Boer", "P - Svilar", "D - Cambiaso", "D - Djimsiti", "D - Hateboer", "D - Lykogiannis", "C - Ricci S", "C - Sensi", "C - Brekalo", "C - Djuricic", "A - Berardi", "A - Ciurria", "A - Shomurodov", "A - Rebic"],
 
-      voti: [6, 6, 6, 6, 6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [6, 7.5, 6, 6, 6,6,6,6,6,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
        titolari:  ["P - Maignan", "D - Rrahmani", "D - Hernandez T", "D - Bastoni", "C - Milinkovic-Savic", "C - Mkhitaryan", "C - Elmas", "C - Ederson J", "A - Immobile", "A - Giroud", "A - Lookman"],
@@ -665,7 +665,7 @@ function mostraFormazioniLive() {
     formazione2: {
       titolari: ["P - Onana", "D - Marusic", "D - Dimarco", "D - Toljan", "C - Baldanzi", "C - Ferguson", "C - Kostic", "C - Pereyra", "A - Leao", "A - Lukaku R", "A - Beto"],
       panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Messias", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
-      voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }
   }
   ];
