@@ -325,9 +325,9 @@ const calendario = [
     {
         giornata: 32,
         partite: [
-            { squadra1: "DRINK TEAM", squadra2: "AS TROMBA", risultato1: 0 , risultato2: 0 },
-            { squadra1: "TEAM CHIAPPETTO", squadra2: "BENEVENGO", risultato1: 0, risultato2: 0 },
-            { squadra1: "MIGNOTTINGHAM FOREST FC", squadra2: "ASTON BIRRA", risultato1: 0, risultato2: 0 },
+            { squadra1: "DRINK TEAM", squadra2: "AS TROMBA", risultato1: 2 , risultato2: 2 },
+            { squadra1: "TEAM CHIAPPETTO", squadra2: "BENEVENGO", risultato1: 1, risultato2: 5 },
+            { squadra1: "MIGNOTTINGHAM FOREST FC", squadra2: "ASTON BIRRA", risultato1: 0, risultato2: 3 },
         
         ],
     },
@@ -663,8 +663,8 @@ function mostraFormazioniLive() {
       voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
-      titolari: ["P - Onana", "D - Marusic", "D - Dimarco", "D - Toljan", "C - Baldanzi", "C - Messias", "C - Kostic", "C - Pereyra", "A - Leao", "A - Lukaku R", "A - Beto"],
-      panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Ferguson", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
+      titolari: ["P - Onana", "D - Marusic", "D - Dimarco", "D - Toljan", "C - Baldanzi", "C - Ferguson", "C - Kostic", "C - Pereyra", "A - Leao", "A - Lukaku R", "A - Beto"],
+      panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Messias", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
       voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }
   }
