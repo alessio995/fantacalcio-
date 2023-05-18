@@ -656,13 +656,14 @@ function mostraFormazioniLive() {
 
   const sfide = [
   {
-    fantallenatore1: "ASTON BIRRA",
-    fantallenatore2: "DRINK TEAM",
+    fantallenatore1: "AS TROMBA",
+    fantallenatore2: "BENEVENGO",
     formazione1: {
-      titolari: ["P - Terracciano", "D - Carlos Augusto", "D - Di Lorenzo", "D - Maehle", "C - Gonzalez N", "C - Zaccagni", "C - Zielinski", "C - Barella", "A - Dia", "A - Zapata D", "A - Milik"],
-      panchinari: ["P - Sirigu", "P - Cerofolini", "D - Udogie", "D - Ferrari G", "D - Romagnoli A", "D - Holm", "C - De Ketelaere", "C - Thorstvedt", "C - Strefezza", "A - Caputo", "A - Dzeko", "A - Caprari", "A - Soule"],
+      titolari: ["P - Musso", "D - Parisi", "D - Scalvini", "D - Valeri", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "C - Vlasic", "A - Martinez L", "A - Okereke"],
+      panchinari: ["P - Sportiello", "P - Rossi F", "D - Becao", "D - Acerbi", "D - Bradaric D", "D - Gabbia", "C - Volpato", "C - Pessina", "C - Pogba", "C - Sabiri","A - Hojlund", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
+      
 
-      voti: [5, 6, 6, 6, 10,6,6,6,13,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [6, 6, 6, 6, 6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
       titolari: ["P - Meret", "D - Posch", "D - Lazzari M", "D - Dumfries", "C - Saelemaekers", "C - Brozovic", "C - Di Maria", "C - Luis Alberto", "A - Kvaratskhelia", "A - Osimhen", "A - Abraham"],
@@ -671,13 +672,13 @@ function mostraFormazioniLive() {
     }
   },
     {
-    fantallenatore1: "BENEVENGO",
+    fantallenatore1: "TEAMCHIAPPETTO",
     fantallenatore2: "MIGNOTTINGHAM FOREST FC",
     formazione1: {
       titolari:  ["P - Rui Patricio", "D - Dodo D", "D - Cuadrado", "D - Celik", "C - Miranchuk", "C - Calhanoglu", "C - Felipe Anderson", "C - Tonali", "A - Sanabria", "A - Vlahovic", "A - Dybala"],
       panchinari: ["P - Boer", "P - Svilar", "D - Cambiaso", "D - Djimsiti", "D - Hateboer", "D - Lykogiannis", "C - Ricci S", "C - Sensi", "C - Brekalo", "C - Djuricic", "A - Berardi", "A - Ciurria", "A - Shomurodov", "A - Rebic"],
 
-      voti: [6, 7.5, 6, 6, 6,6,6,6,6,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [6, 6, 6, 6, 6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
        titolari:  ["P - Maignan", "D - Rrahmani", "D - Hernandez T", "D - Bastoni", "C - Milinkovic-Savic", "C - Mkhitaryan", "C - Elmas", "C - Ederson J", "A - Immobile", "A - Giroud", "A - Lookman"],
@@ -686,8 +687,8 @@ function mostraFormazioniLive() {
     }
   },
   {
-    fantallenatore1: "AS TROMBA",
-    fantallenatore2: "TEAM CHIAPPETTO",
+    fantallenatore1: "DRINK TEAM ",
+    fantallenatore2: "ASTON BIRRA",
     formazione1: {
       titolari: ["P - Musso", "D - Becao", "D - Scalvini", "D - Acerbi", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "A - Martinez L", "A - Hojlund", "A - El Shaarawy"],
       panchinari: ["P - Sportiello", "P - Rossi F", "D - Valeri", "D - Parisi F", "D - Bradaric D", "D - Gabbia", "C - Vlasic", "C - Pessina", "C - Pogba", "C - Sabiri", "C - Volpato C", "C - Basic", "A - Okereke", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
