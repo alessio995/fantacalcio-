@@ -437,28 +437,6 @@ const rose = {
 // Esempio di dati della classifica
 const classifica = [
     {
-      posizione: 3,
-      squadra: 'DRINK TEAM',
-      punti: 56,
-      vinte: 17,
-      pareggiate: 6,
-      perse: 12,
-      golFatti: 63,
-      golSubiti: 54,
-      puntiTotali: 2562,
-    },
-  {
-      posizione: 2,
-      squadra: 'MIGHOTTINGHAN FOREST FC',
-      punti: 56,
-      vinte: 15,
-      pareggiate: 9,
-      perse: 11,
-      golFatti: 58,
-      golSubiti: 46,
-      puntiTotali: 2520,
-    },
-  {
       posizione: 1,
       squadra: 'TEAM CHIAPPETTO',
       punti: 57,
@@ -469,6 +447,29 @@ const classifica = [
       golSubiti: 51,
       puntiTotali: 2525,
     },
+    {
+      posizione: 2,
+      squadra: 'MIGHOTTINGHAN FOREST FC',
+      punti: 56,
+      vinte: 15,
+      pareggiate: 9,
+      perse: 11,
+      golFatti: 58,
+      golSubiti: 46,
+      puntiTotali: 2520,
+    },
+    {
+      posizione: 3,
+      squadra: 'DRINK TEAM',
+      punti: 56,
+      vinte: 17,
+      pareggiate: 6,
+      perse: 12,
+      golFatti: 63,
+      golSubiti: 54,
+      puntiTotali: 2562,
+    },
+  
   {
       posizione: 4,
       squadra: 'ASTON BIRRA',
