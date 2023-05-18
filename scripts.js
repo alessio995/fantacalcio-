@@ -334,27 +334,27 @@ const calendario = [
     {
         giornata: 33,
         partite: [
-            { squadra1: "ASTON BIRRA", squadra2: "DRINK TEAM", risultato1: 0 , risultato2: 0 },
-            { squadra1: "BENEVENGO", squadra2: "MIGNOTTINGHAM FOREST FC", risultato1: 0, risultato2: 0 },
-            { squadra1: "AS TROMBA", squadra2: "TEAMCHIAPPETTO", risultato1: 0, risultato2: 0 },
+            { squadra1: "ASTON BIRRA", squadra2: "DRINK TEAM", risultato1: 3 , risultato2: 2 },
+            { squadra1: "BENEVENGO", squadra2: "MIGNOTTINGHAM FOREST FC", risultato1: 3, risultato2: 0 },
+            { squadra1: "AS TROMBA", squadra2: "TEAMCHIAPPETTO", risultato1: 4, risultato2: 0 },
             
         ],
     },
     {
         giornata: 34,
         partite: [
-            { squadra1: "DRINK TEAM", squadra2: "TEAMCHIAPPETTO", risultato1: 0 , risultato2: 0 },
-            { squadra1: "MIGNOTTINGHAM FOREST FC", squadra2: "AS TROMBA", risultato1: 0, risultato2: 0 },
-            { squadra1: "ASTON BIRRA", squadra2: "BENEVENGO", risultato1: 0, risultato2: 0 },
+            { squadra1: "DRINK TEAM", squadra2: "TEAMCHIAPPETTO", risultato1: 1 , risultato2: 3 },
+            { squadra1: "MIGNOTTINGHAM FOREST FC", squadra2: "AS TROMBA", risultato1: 1, risultato2: 1 },
+            { squadra1: "ASTON BIRRA", squadra2: "BENEVENGO", risultato1: 1, risultato2: 3 },
             
         ],
     },
     {
         giornata: 35,
         partite: [
-            { squadra1: "BENEVENGO", squadra2: "DRINK TEAM", risultato1: 0 , risultato2: 0 },
-            { squadra1: "AS TROMBA", squadra2: "ASTON BIRRA", risultato1: 0, risultato2: 0 },
-            { squadra1: "TEAMCHIAPPETTO", squadra2: "MIGNOTTINGHAM FOREST FC", risultato1: 0, risultato2: 0 },
+            { squadra1: "BENEVENGO", squadra2: "DRINK TEAM", risultato1: 2 , risultato2: 1 },
+            { squadra1: "AS TROMBA", squadra2: "ASTON BIRRA", risultato1: 2, risultato2: 0 },
+            { squadra1: "TEAMCHIAPPETTO", squadra2: "MIGNOTTINGHAM FOREST FC", risultato1: 2, risultato2: 2 },
             
         ],
     },
