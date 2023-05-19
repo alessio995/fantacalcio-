@@ -666,9 +666,9 @@ function mostraFormazioniLive() {
       voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
-      titolari: [],
-      panchinari: [],
-      voti: []
+      titolari: ["P - RUI PATRICIO", "D - CAMBIASO", "D - DODO D", "D - CELIK", "C - CALHANOGLU", "C - TONALI", "C - FELIPE ANDERSON", "C - RICCI S", "A - BERARDI", "A - VLAHOVIC", "A - DYBALA"],
+      panchinari: ["P - BOER", "P - SVILAR", "D - CUADRADO", "D - HATEBOER", "D - DJIMSITI", "D - LYKOGIANNIS", "C - MIRANCHUK", "C - DJURICIC", "C - BREKALO", "C - SENSI", "A - CIURRIA", "A - REBIC", "A - SHOMURODOV", "A - SANABRIA"],
+      voti: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }
   },
     {
