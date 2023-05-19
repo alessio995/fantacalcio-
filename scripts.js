@@ -663,12 +663,12 @@ function mostraFormazioniLive() {
       panchinari: ["P - Sportiello", "P - Rossi F", "D - Becao", "D - Acerbi", "D - Bradaric D", "D - Gabbia", "C - Volpato", "C - Pessina", "C - Pogba", "C - Sabiri","A - Hojlund", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
       
 
-      voti: [6, 6, 6, 6, 6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
-      titolari: ["P - Meret", "D - Posch", "D - Lazzari M", "D - Dumfries", "C - Saelemaekers", "C - Brozovic", "C - Di Maria", "C - Luis Alberto", "A - Kvaratskhelia", "A - Osimhen", "A - Abraham"],
-      panchinari: ["P - Gollini", "P - Marfella", "D - Hysaj", "D - Perez N", "D - Igor", "C - Chiesa", "C - Bonaventura", "A - Pedro R", "A - Origi"],
-      voti: [6, 6, 6, 6, 6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0]
+      titolari: [],
+      panchinari: [],
+      voti: []
     }
   },
     {
