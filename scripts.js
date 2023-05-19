@@ -675,29 +675,29 @@ function mostraFormazioniLive() {
     fantallenatore1: "TEAMCHIAPPETTO",
     fantallenatore2: "MIGNOTTINGHAM FOREST FC",
     formazione1: {
-      titolari:  ["P - Rui Patricio", "D - Dodo D", "D - Cuadrado", "D - Celik", "C - Miranchuk", "C - Calhanoglu", "C - Felipe Anderson", "C - Tonali", "A - Sanabria", "A - Vlahovic", "A - Dybala"],
-      panchinari: ["P - Boer", "P - Svilar", "D - Cambiaso", "D - Djimsiti", "D - Hateboer", "D - Lykogiannis", "C - Ricci S", "C - Sensi", "C - Brekalo", "C - Djuricic", "A - Berardi", "A - Ciurria", "A - Shomurodov", "A - Rebic"],
+      titolari: ["P - SZCZESNY", "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
+      panchinari: ["P - PERIN", "P - ONANA", "D - ZORTEA", "D - MARUSIC", "D - MARIO RUI", "D - BIRINDELLI", "C - KOSTIC", "C - POLITANO", "C - LOBOTKA", "A - BETO", "A - PINAMONTI", "A - PICCOLI"],
 
-      voti: [6, 6, 6, 6, 6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
-       titolari:  ["P - Maignan", "D - Rrahmani", "D - Hernandez T", "D - Bastoni", "C - Milinkovic-Savic", "C - Mkhitaryan", "C - Elmas", "C - Ederson J", "A - Immobile", "A - Giroud", "A - Lookman"],
-      panchinari:  ["P - Tatarusanu", "P - Milinkovic-Savic V", "D - Pellegrini Lu", "D - Smalling", "D - Nuytinck", "C - Frattesi", "C - Samardzic", "C - Wijnaldum", "A - Lauriente'", "A - Arnautovic"],
-      voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,0,0,0,0,0,0,0,0,0,0]
+       titolari:  ["P - MAIGNAN", "D - SMALLING", "D - HERNANDEZ T", "D - RRAHMANI", "C - MILINKOVIC-SAVIC", "C - FRATTESI", "C - WIJNALDUM", "C - ELMAS", "A - GIROUD", "A - IMMOBILE", "A - ARNAUTOVIC"],
+      panchinari:  ["P - TATARUSANU", "P - MILINKOVIC-SAVIC V", "D - BASTONI", "D - PELLEGRINI LU", "D - NUYTINCK", "C - SAMARDZIC", "C - EDERSON J", "A - LOOKMAN", "A - LAURIENTE"],
+      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }
   },
   {
     fantallenatore1: "DRINK TEAM ",
     fantallenatore2: "ASTON BIRRA",
     formazione1: {
-      titolari: ["P - Musso", "D - Becao", "D - Scalvini", "D - Acerbi", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "A - Martinez L", "A - Hojlund", "A - El Shaarawy"],
-      panchinari: ["P - Sportiello", "P - Rossi F", "D - Valeri", "D - Parisi F", "D - Bradaric D", "D - Gabbia", "C - Vlasic", "C - Pessina", "C - Pogba", "C - Sabiri", "C - Volpato C", "C - Basic", "A - Okereke", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
-      voti: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      titolari: ["P - MERET", "D - DUMFRIES", "D - TOMORI", "D - POSCH", "C - BROZOVIC", "C - SAELEMAEKERS", "C - LUIS ALBERTO", "C - DI MARIA", "A - KVARATSKHELIA", "A - OSIMHEN", "A - ABRAHAM"],
+      panchinari: ["P - GOLLINI", "P - MARFELLA", "D - PEREZ N", "D - LAZZARI M", "D - HYSAJ", "D - IGOR", "C - CHIESA", "C - LOPEZ M", "C - MATIC", "C - GONZALEZ J", "A - PEDRO R", "A - ORIGI", "A - ALVAREZ A"],
+      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     },
     formazione2: {
-      titolari: ["P - Onana", "D - Marusic", "D - Dimarco", "D - Toljan", "C - Baldanzi", "C - Ferguson", "C - Kostic", "C - Pereyra", "A - Leao", "A - Lukaku R", "A - Beto"],
-      panchinari: ["P - Szczesny", "P - Perin", "D - Zortea", "D - Birindelli", "D - Bijol", "C - Lobotka", "C - Messias", "C - Politano", "C - Radonjic", "C - Bajrami", "A - Nzola", "A - Lozano", "A - Piccoli"],
-      voti: [5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      titolari: ["P - TERRACCIANO", "D - DI LORENZO", "D - CARLOS AUGUSTO", "D - MAEHLE", "C - BARELLA", "C - ZIELINSKI", "C - ZACCAGNI", "C - STREFEZZA", "A - DIA", "A - MILIK", "A - CAPRARI"],
+      panchinari: ["P - SIRIGU", "P - CEROFOLINI", "D - ROMAGNOLI A", "D - UDOGIE", "D - FERRARI G", "D - HOLM", "C - GONZALEZ N", "C - DE KETELAERE", "C - THORSTVEDT", "A - DZEKO", "A - CAPUTO", "A - ZAPATA D", "A - SOULE"],
+      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }
   }
   ];
