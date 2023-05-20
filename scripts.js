@@ -668,7 +668,7 @@ function mostraFormazioniLive() {
     formazione2: {
       titolari: ["P - RUI PATRICIO", "D - CAMBIASO", "D - DODO D", "D - CELIK", "C - CALHANOGLU", "C - TONALI", "C - FELIPE ANDERSON", "C - RICCI S", "A - BERARDI", "A - VLAHOVIC", "A - DYBALA"],
       panchinari: ["P - BOER", "P - SVILAR", "D - CUADRADO", "D - HATEBOER", "D - DJIMSITI", "D - LYKOGIANNIS", "C - MIRANCHUK", "C - DJURICIC", "C - BREKALO", "C - SENSI", "A - CIURRIA", "A - REBIC", "A - SHOMURODOV", "A - SANABRIA"],
-      voti: [0,6.5,0,0,0,0,0,0,9.5,0,0,0,0,0,0,6.5,0,0,0,0,5.5,10,0,0,0]
+      voti: [0,6.5,0,0,8.5,0,0,0,9.5,0,0,0,0,0,0,6.5,0,0,0,0,5.5,10,0,0,0]
     }
   },
     {
@@ -678,12 +678,12 @@ function mostraFormazioniLive() {
       titolari: ["P - SZCZESNY", "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
       panchinari: ["P - PERIN", "P - ONANA", "D - ZORTEA", "D - MARUSIC", "D - MARIO RUI", "D - BIRINDELLI", "C - KOSTIC", "C - POLITANO", "C - LOBOTKA", "A - BETO", "A - PINAMONTI", "A - PICCOLI"],
 
-      voti: [0, 6, 0, 0, 0,6,10.5,0,0,0,0,0,6,0,0,0,7.5,0,0,0,0,6,0]
+      voti: [0, 6, 0, 0, 0,6,10.5,0,6,0,12,0,6,0,0,0,7.5,0,0,0,0,6,0]
     },
     formazione2: {
        titolari:  ["P - MAIGNAN", "D - SMALLING", "D - HERNANDEZ T", "D - RRAHMANI", "C - MILINKOVIC-SAVIC", "C - FRATTESI", "C - WIJNALDUM", "C - ELMAS", "A - GIROUD", "A - IMMOBILE", "A - ARNAUTOVIC"],
       panchinari:  ["P - TATARUSANU", "P - MILINKOVIC-SAVIC V", "D - BASTONI", "D - PELLEGRINI LU", "D - NUYTINCK", "C - SAMARDZIC", "C - EDERSON J", "A - LOOKMAN", "A - LAURIENTE"],
-      voti: [0, 0, 0, 0, 0,6.5,0,0,0,0,10.5,0,0,0,0,0,0,6,7.5,0]
+      voti: [5, 0, 5, 0, 0,6.5,0,0,16.5,0,10.5,0,0,0,0,5,0,6,7.5,0]
     }
   },
   {
@@ -692,7 +692,7 @@ function mostraFormazioniLive() {
     formazione1: {
       titolari: ["P - MERET", "D - DUMFRIES", "D - TOMORI", "D - POSCH", "C - BROZOVIC", "C - SAELEMAEKERS", "C - LUIS ALBERTO", "C - DI MARIA", "A - KVARATSKHELIA", "A - OSIMHEN", "A - ABRAHAM"],
       panchinari: ["P - GOLLINI", "P - MARFELLA", "D - PEREZ N", "D - LAZZARI M", "D - HYSAJ", "D - IGOR", "C - CHIESA", "C - LOPEZ M", "C - MATIC", "C - GONZALEZ J", "A - PEDRO R", "A - ORIGI", "A - ALVAREZ A"],
-      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.5,0,0,0,0,0]
+      voti: [0, 0, 0, 0, 0,6.5,0,0,0,0,0,0,0,0,0,0,0,0,6.5,0,0,0,0,0]
     },
     formazione2: {
       titolari: ["P - TERRACCIANO", "D - DI LORENZO", "D - CARLOS AUGUSTO", "D - MAEHLE", "C - BARELLA", "C - ZIELINSKI", "C - ZACCAGNI", "C - STREFEZZA", "A - DIA", "A - MILIK", "A - CAPRARI"],
