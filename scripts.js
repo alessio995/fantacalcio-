@@ -678,12 +678,12 @@ function mostraFormazioniLive() {
       titolari: ["P - SZCZESNY", "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
       panchinari: ["P - PERIN", "P - ONANA", "D - ZORTEA", "D - MARUSIC", "D - MARIO RUI", "D - BIRINDELLI", "C - KOSTIC", "C - POLITANO", "C - LOBOTKA", "A - BETO", "A - PINAMONTI", "A - PICCOLI"],
 
-      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [0, 6, 0, 0, 0,6,0,0,0,0,0,0,6,0,0,6.5,0,0,0,0,0,6,0]
     },
     formazione2: {
        titolari:  ["P - MAIGNAN", "D - SMALLING", "D - HERNANDEZ T", "D - RRAHMANI", "C - MILINKOVIC-SAVIC", "C - FRATTESI", "C - WIJNALDUM", "C - ELMAS", "A - GIROUD", "A - IMMOBILE", "A - ARNAUTOVIC"],
       panchinari:  ["P - TATARUSANU", "P - MILINKOVIC-SAVIC V", "D - BASTONI", "D - PELLEGRINI LU", "D - NUYTINCK", "C - SAMARDZIC", "C - EDERSON J", "A - LOOKMAN", "A - LAURIENTE"],
-      voti: [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      voti: [0, 0, 0, 0, 0,6.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }
   },
   {
