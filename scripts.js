@@ -692,7 +692,7 @@ function mostraFormazioniLive() {
     formazione1: {
       titolari: ["P - MERET", "D - DUMFRIES", "D - TOMORI", "D - POSCH", "C - BROZOVIC", "C - SAELEMAEKERS", "C - LUIS ALBERTO", "C - DI MARIA", "A - KVARATSKHELIA", "A - OSIMHEN", "A - ABRAHAM"],
       panchinari: ["P - GOLLINI", "P - MARFELLA", "D - PEREZ N", "D - LAZZARI M", "D - HYSAJ", "D - IGOR", "C - CHIESA", "C - LOPEZ M", "C - MATIC", "C - GONZALEZ J", "A - PEDRO R", "A - ORIGI", "A - ALVAREZ A"],
-      voti: [0, 0, 0, 0, 0,6.5,0,0,0,0,0,0,0,0,0,0,0,0,6.5,0,0,0,0,0]
+      voti: [0, 0, 0, 10, 0,6.5,0,0,0,0,0,0,0,0,0,0,0,0,6.5,0,0,0,0,0]
     },
     formazione2: {
       titolari: ["P - TERRACCIANO", "D - DI LORENZO", "D - CARLOS AUGUSTO", "D - MAEHLE", "C - BARELLA", "C - ZIELINSKI", "C - ZACCAGNI", "C - STREFEZZA", "A - DIA", "A - MILIK", "A - CAPRARI"],
