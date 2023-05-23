@@ -699,8 +699,8 @@ function mostraFormazioniLive() {
        
     },
     formazione2: {
-      titolari: ["P1 - Onana", "D2 - Toljan", "D3 - Dimarco", "D4 - Birindelli", "C5 - Lobotka", "C6 - Pereyra", "C7 - Bajrami", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Nzola"],
-      panchinari: ["P12 - Szczesny", "P13 - Perin", "D14 - Zortea", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Kostic", "C19 - Ferguson", "C20 - Messias", "A21 - Pinamonti", "A22 - Beto", "A23 - Piccoli"],
+      titolari: ["P1 - Onana", "D2 - Toljan", "D3 - Dimarco", "D4 - Birindelli", "C5 - Messias", "C6 - Pereyra", "C7 - Bajrami", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Nzola"],
+      panchinari: ["P12 - Szczesny", "P13 - Perin", "D14 - Zortea", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Kostic", "C19 - Ferguson", "C20 - Lobotka", "A21 - Pinamonti", "A22 - Beto", "A23 - Piccoli"],
      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     }
