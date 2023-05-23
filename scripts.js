@@ -361,9 +361,9 @@ const calendario = [
     {
         giornata: 36,
         partite: [
-            { squadra1: "AS TROMBA", squadra2: "BENEVENGO", risultato1: 1 , risultato2: 1 },
-            { squadra1: "TEAMCHIAPPETTO", squadra2: "MIGNOTTINGHAM FOREST FC", risultato1: 2, risultato2: 3 },
-            { squadra1: "DRINK TEAM", squadra2: "ASTON BIRRA", risultato1: 1, risultato2: 2 },
+            { squadra1: "AS TROMBA", squadra2: "BENEVENGO", risultato1: 0 , risultato2: 0 },
+            { squadra1: "TEAMCHIAPPETTO", squadra2: "MIGNOTTINGHAM FOREST FC", risultato1: 0, risultato2: 0 },
+            { squadra1: "DRINK TEAM", squadra2: "ASTON BIRRA", risultato1: 0, risultato2: 0 },
             
         ],
     },
@@ -438,71 +438,70 @@ const rose = {
 const classifica = [
     {
       posizione: 1,
-      squadra: 'MIGHOTTINGHAN FOREST FC',
-      punti: 59,
-      vinte: 16,
-      pareggiate: 9,
-      perse: 11,
-      golFatti: 61,
-      golSubiti: 48,
-      puntiTotali: 2602,
-    },
-    {
-      posizione: 2,
       squadra: 'TEAM CHIAPPETTO',
       punti: 57,
       vinte: 16,
       pareggiate: 9,
-      perse: 11,
-      golFatti: 59,
-      golSubiti: 54,
-      puntiTotali: 2602.5,
+      perse: 10,
+      golFatti: 57,
+      golSubiti: 51,
+      puntiTotali: 2525,
     },
-    
+    {
+      posizione: 2,
+      squadra: 'MIGHOTTINGHAN FOREST FC',
+      punti: 56,
+      vinte: 15,
+      pareggiate: 9,
+      perse: 11,
+      golFatti: 58,
+      golSubiti: 46,
+      puntiTotali: 2520,
+    },
     {
       posizione: 3,
       squadra: 'DRINK TEAM',
       punti: 56,
       vinte: 17,
       pareggiate: 6,
-      perse: 13,
-      golFatti: 64,
-      golSubiti: 56,
-      puntiTotali: 2632.5,
+      perse: 12,
+      golFatti: 63,
+      golSubiti: 54,
+      puntiTotali: 2562,
     },
   
   {
       posizione: 4,
       squadra: 'ASTON BIRRA',
-      punti: 48,
-      vinte: 14,
+      punti: 45,
+      vinte: 13,
       pareggiate: 6,
       perse: 16,
-      golFatti: 56,
-      golSubiti: 59,
-      puntiTotali: 2593.5,
+      golFatti: 54,
+      golSubiti: 58,
+      puntiTotali: 2519,
     },
   {
       posizione: 5,
       squadra: 'BENEVENGO',
-      punti: 43,
+      punti: 42,
       vinte: 12,
-      pareggiate: 7,
+      pareggiate: 6,
       perse: 17,
-      golFatti: 51,
-      golSubiti: 65,
-      puntiTotali: 2541,
+      golFatti: 50,
+      golSubiti: 64,
+      puntiTotali: 2474.5,
     },
   {
       posizione: 6,
       squadra: 'AS TROMBA',
-      punti: 37,
+      punti: 36,
       vinte: 8,
-      pareggiate: 13,
+      pareggiate: 12,
       perse: 15,
-      golFatti: 51,
-      golSubiti: 60,
-      puntiTotali: 2551.5,
+      golFatti: 50,
+      golSubiti: 59,
+      puntiTotali: 2483.5,
     },
     // ... altre squadre
   ];
@@ -652,6 +651,106 @@ function aggiornaClassifica() {
 // Le altre funzioni e variabili esistenti
 // ...
 function mostraFormazioniLive() {
+  const formazioniLiveContainer = document.getElementById("formazioni-live-container");
+  formazioniLiveContainer.innerHTML = "";
+
+  const sfide = [
+  {
+    fantallenatore1: "AS TROMBA",
+    fantallenatore2: "BENEVENGO",
+    formazione1: {
+      titolari: ["P - Musso", "D - Parisi", "D - Scalvini", "D - Valeri", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "C - Vlasic", "A - Martinez L", "A - Okereke"],
+      panchinari: ["P - Sportiello", "P - Rossi F", "D - Becao", "D - Acerbi", "D - Bradaric D", "D - Gabbia", "C - Volpato", "C - Pessina", "C - Pogba", "C - Sabiri","A - Hojlund", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
+      
+
+      voti: [0, 0, 5.5, 5, 0,5.5,0,0,6,6,5,5,0,0,0,0,0,0,10,0,0,10,0,0,0]
+    },
+    formazione2: {
+      titolari: ["P - RUI PATRICIO", "D - CAMBIASO", "D - DODO D", "D - CELIK", "C - CALHANOGLU", "C - TONALI", "C - FELIPE ANDERSON", "C - RICCI S", "A - BERARDI", "A - VLAHOVIC", "A - DYBALA"],
+      panchinari: ["P - BOER", "P - SVILAR", "D - CUADRADO", "D - HATEBOER", "D - DJIMSITI", "D - LYKOGIANNIS", "C - MIRANCHUK", "C - DJURICIC", "C - BREKALO", "C - SENSI", "A - CIURRIA", "A - REBIC", "A - SHOMURODOV", "A - SANABRIA"],
+      voti: [0,6.5,0,0,0,8.5,5,6,9.5,0,0,0,0,0,0,6.5,0,6,0,0,5.5,10,0,0,0]
+    }
+  },
+    {
+    fantallenatore1: "TEAMCHIAPPETTO",
+    fantallenatore2: "MIGNOTTINGHAM FOREST FC",
+    formazione1: {
+      titolari: ["P - SZCZESNY", "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
+      panchinari: ["P - PERIN", "P - ONANA", "D - ZORTEA", "D - MARUSIC", "D - MARIO RUI", "D - BIRINDELLI", "C - KOSTIC", "C - POLITANO", "C - LOBOTKA", "A - BETO", "A - PINAMONTI", "A - PICCOLI"],
+
+      voti: [0, 6, 7.5, 5, 6,6,10.5,6,10,12,6,0,6,0,0,0,7.5,0,0,0,0,6,0]
+    },
+    formazione2: {
+       titolari:  ["P - MAIGNAN", "D - SMALLING", "D - HERNANDEZ T", "D - RRAHMANI", "C - MILINKOVIC-SAVIC", "C - FRATTESI", "C - WIJNALDUM", "C - ELMAS", "A - GIROUD", "A - IMMOBILE", "A - ARNAUTOVIC"],
+      panchinari:  ["P - TATARUSANU", "P - MILINKOVIC-SAVIC V", "D - BASTONI", "D - PELLEGRINI LU", "D - NUYTINCK", "C - SAMARDZIC", "C - EDERSON J", "A - LOOKMAN", "A - LAURIENTE"],
+      voti: [5, 0, 5.5, 6.5, 5.5,6.5,0,5.5,16.5,9,10.5,0,0,0,0,5,0,6,7.5,0]
+    }
+  },
+  {
+    fantallenatore1: "DRINK TEAM ",
+    fantallenatore2: "ASTON BIRRA",
+    formazione1: {
+      titolari: ["P - MERET", "D - DUMFRIES", "D - TOMORI", "D - POSCH", "C - BROZOVIC", "C - SAELEMAEKERS", "C - LUIS ALBERTO", "C - DI MARIA", "A - KVARATSKHELIA", "A - OSIMHEN", "A - ABRAHAM"],
+      panchinari: ["P - GOLLINI", "P - MARFELLA", "D - PEREZ N", "D - LAZZARI M", "D - HYSAJ", "D - IGOR", "C - CHIESA", "C - LOPEZ M", "C - MATIC", "C - GONZALEZ J", "A - PEDRO R", "A - ORIGI", "A - ALVAREZ A"],
+      voti: [5, 6, 6.5, 10, 5.5,6.5,7,0,7,5.5,0,0,0,0,0,0,0,0,6.5,0,0,0,0,0]
+    },
+    formazione2: {
+      titolari: ["P - TERRACCIANO", "D - DI LORENZO", "D - CARLOS AUGUSTO", "D - MAEHLE", "C - BARELLA", "C - ZIELINSKI", "C - ZACCAGNI", "C - STREFEZZA", "A - DIA", "A - MILIK", "A - CAPRARI"],
+      panchinari: ["P - SIRIGU", "P - CEROFOLINI", "D - ROMAGNOLI A", "D - UDOGIE", "D - FERRARI G", "D - HOLM", "C - GONZALEZ N", "C - DE KETELAERE", "C - THORSTVEDT", "A - DZEKO", "A - CAPUTO", "A - ZAPATA D", "A - SOULE"],
+      voti: [0, 10.5, 6.5, 6, 6.5,7.5,6.5,6,0,0,5.5,0,0,0,0,6,0,0,0,5.5,0,0,0,0]
+    }
+  }
+  ];
+
+  sfide.forEach((sfida) => {
+    const table = document.createElement("table");
+    const sommaTitolari1 = sfida.formazione1.voti.slice(0, sfida.formazione1.titolari.length).reduce((a, b) => a + b, 0);
+    const sommaTitolari2 = sfida.formazione2.voti.slice(0, sfida.formazione2.titolari.length).reduce((a, b) => a + b, 0);
+    const tuttiIGiocatori = [
+  ...sfida.formazione1.titolari,
+  ...sfida.formazione1.panchinari,
+  ...sfida.formazione2.titolari,
+  ...sfida.formazione2.panchinari,
+];
+
+    table.innerHTML = `
+      <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
+      <thead>
+        <tr>
+  <td colspan="2">Titolari</td>
+  <td colspan="2">Titolari</td>
+
+</tr>
+${sfida.formazione1.titolari.map((giocatore, index) => `
+  <tr>
+    <td class="titolari-nome">${giocatore}</td>
+    <td class="titolari-voto lampeggiare">${sfida.formazione1.voti[index]}</td>
+    <td class="titolari-nome">${sfida.formazione2.titolari[index]}</td>
+    <td class="titolari-voto lampeggiare">${sfida.formazione2.voti[index]}</td>
+  </tr>
+`).join("")}
+<tr>
+  <td colspan="2">Panchinari</td>
+  <td colspan="2">Panchinari</td>
+
+</tr>
+${sfida.formazione1.panchinari.map((giocatore, index) => `
+  <tr>
+    <td class="panchinari-nome">${giocatore}</td>
+    <td class="panchinari-voto">${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
+    <td class="panchinari-nome">${sfida.formazione2.panchinari[index]}</td>
+    <td class="panchinari-voto">${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
+  </tr>
+`).join("")}
+<tr>
+  <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari1}</td>
+  <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari2}</td>
+      </tbody>
+    `;
+    formazioniLiveContainer.appendChild(table);
+  });
+// Aggiorna i voti dei giocatori
+  aggiornaVotiGiocatori();
 }
 function mostraSezione(idSezione) {
   const sezioni = document.querySelectorAll('main > section');
