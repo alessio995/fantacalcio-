@@ -657,19 +657,20 @@ function mostraFormazioniLive() {
 
   const sfide = [
   {
-    fantallenatore1: "AS TROMBA",
-    fantallenatore2: "BENEVENGO",
+    fantallenatore1: "BENEVENGO",
+    fantallenatore2: "ASTON BIRRA",
     formazione1: {
-      titolari: ["P - Musso", "D - Parisi", "D - Scalvini", "D - Valeri", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "C - Vlasic", "A - Martinez L", "A - Okereke"],
-      panchinari: ["P - Sportiello", "P - Rossi F", "D - Becao", "D - Acerbi", "D - Bradaric D", "D - Gabbia", "C - Volpato", "C - Pessina", "C - Pogba", "C - Sabiri","A - Hojlund", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
+      titolari: [],
+      panchinari: [],
       
 
-      voti: [0, 0, 5.5, 5, 0,5.5,0,0,6,6,5,5,0,0,0,0,0,0,10,0,0,10,0,0,0]
+      voti: []
     },
     formazione2: {
-      titolari: ["P - RUI PATRICIO", "D - CAMBIASO", "D - DODO D", "D - CELIK", "C - CALHANOGLU", "C - TONALI", "C - FELIPE ANDERSON", "C - RICCI S", "A - BERARDI", "A - VLAHOVIC", "A - DYBALA"],
-      panchinari: ["P - BOER", "P - SVILAR", "D - CUADRADO", "D - HATEBOER", "D - DJIMSITI", "D - LYKOGIANNIS", "C - MIRANCHUK", "C - DJURICIC", "C - BREKALO", "C - SENSI", "A - CIURRIA", "A - REBIC", "A - SHOMURODOV", "A - SANABRIA"],
-      voti: [0,6.5,0,0,0,8.5,5,6,9.5,0,0,0,0,0,0,6.5,0,6,0,0,5.5,10,0,0,0]
+      titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
+      panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
+    //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+      voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     }
   },
     {
