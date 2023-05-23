@@ -660,32 +660,37 @@ function mostraFormazioniLive() {
     fantallenatore1: "BENEVENGO",
     fantallenatore2: "ASTON BIRRA",
     formazione1: {
-      titolari: ["P - Musso", "D - Parisi", "D - Scalvini", "D - Valeri", "D - Kim", "C - Koopmeiners", "C - Pellegrini", "C - Fagioli", "C - Vlasic", "A - Martinez L", "A - Okereke"],
-      panchinari: ["P - Sportiello", "P - Rossi F", "D - Becao", "D - Acerbi", "D - Bradaric D", "D - Gabbia", "C - Volpato", "C - Pessina", "C - Pogba", "C - Sabiri","A - Hojlund", "A - Ibrahimovic", "A - Satriano", "A - De Luca"],
+      titolari: [],
+      panchinari: [],
       
 
-      voti: [0, 0, 5.5, 5, 7,5.5,0,0,6,6,5,5,0,0,0,0,0,0,10,0,0,10,0,0,0]
+      voti: []
     },
     formazione2: {
-      titolari: ["P - RUI PATRICIO", "D - CAMBIASO", "D - DODO D", "D - CELIK", "C - CALHANOGLU", "C - TONALI", "C - FELIPE ANDERSON", "C - RICCI S", "A - BERARDI", "A - VLAHOVIC", "A - DYBALA"],
-      panchinari: ["P - BOER", "P - SVILAR", "D - CUADRADO", "D - HATEBOER", "D - DJIMSITI", "D - LYKOGIANNIS", "C - MIRANCHUK", "C - DJURICIC", "C - BREKALO", "C - SENSI", "A - CIURRIA", "A - REBIC", "A - SHOMURODOV", "A - SANABRIA"],
-      voti: [0,6.5,0,0,0,8.5,5,6,9.5,0,0,0,0,0,0,6.5,0,6,0,0,5.5,10,0,0,0]
+      titolari:["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"] ,
+      panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
+      /*voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]*/
+
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     }
   },
     {
     fantallenatore1: "MIGNOTTINGHAM FOREST FC",
     fantallenatore2: "DRINK TEAM",
     formazione1: {
-      titolari: ["P - SZCZESNY (1)", "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
-      panchinari: ["P - PERIN", "P - ONANA", "D - ZORTEA", "D - MARUSIC", "D - MARIO RUI", "D - BIRINDELLI", "C - KOSTIC", "C - POLITANO", "C - LOBOTKA", "A - BETO", "A - PINAMONTI", "A - PICCOLI"],
+      titolari:["P1 - Maignan", "D2 - Smalling", "D3 - Hernandez T", "D4 - Bastoni", "C5 - Milinkovic-Savic", "C6 - Frattesi", "C7 - Elmas", "C8 - Samardzic", "A9 - Giroud", "A10 - Immobile", "A11 - Arnautovic"],
+      panchinari:["P12 - Tatarusanu", "P13 - Milinkovic-Savic V", "D14 - Rrahmani", "D15 - Pellegrini Lu", "D16 - Nuytinck", "C17 - Wijnaldum", "C18 - Ederson J", "A19 - Lookman"],
 
-      voti: [0, 6, 7.5, 5, 6, 6, 10.5, 6, 10, 12, 6,
-             0, 6, 0, 0, 0, 7.5, 0, 0, 0, 0, 6, 0]
+      /*voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]*/
+
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+        
+
     },
     formazione2: {
-       titolari:  ["P - MAIGNAN", "D - SMALLING", "D - HERNANDEZ T", "D - RRAHMANI", "C - MILINKOVIC-SAVIC", "C - FRATTESI", "C - WIJNALDUM", "C - ELMAS", "A - GIROUD", "A - IMMOBILE", "A - ARNAUTOVIC"],
-      panchinari:  ["P - TATARUSANU", "P - MILINKOVIC-SAVIC V", "D - BASTONI", "D - PELLEGRINI LU", "D - NUYTINCK", "C - SAMARDZIC", "C - EDERSON J", "A - LOOKMAN", "A - LAURIENTE"],
-      voti: [5, 0, 5.5, 6.5, 5.5,6.5,0,5.5,16.5,9,10.5,0,0,0,0,5,0,6,7.5,0]
+      titolari:  [],
+      panchinari:  [],
+      voti: []
     }
   },
   {
