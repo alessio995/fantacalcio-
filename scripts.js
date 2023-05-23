@@ -662,7 +662,7 @@ function mostraFormazioniLive() {
     formazione1: {
       titolari: [],
       panchinari: [],
-      
+
 
       voti: []
     },
