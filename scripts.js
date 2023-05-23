@@ -676,7 +676,7 @@ function mostraFormazioniLive() {
     fantallenatore1: "TEAMCHIAPPETTO",
     fantallenatore2: "MIGNOTTINGHAM FOREST FC",
     formazione1: {
-      titolari: ["P - SZCZESNY" (1), "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
+      titolari: ["P - SZCZESNY (1)", "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
       panchinari: ["P - PERIN", "P - ONANA", "D - ZORTEA", "D - MARUSIC", "D - MARIO RUI", "D - BIRINDELLI", "C - KOSTIC", "C - POLITANO", "C - LOBOTKA", "A - BETO", "A - PINAMONTI", "A - PICCOLI"],
 
       voti: [0, 6, 7.5, 5, 6, 6, 10.5, 6, 10, 12, 6,
