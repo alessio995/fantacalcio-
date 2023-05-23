@@ -659,21 +659,22 @@ function mostraFormazioniLive() {
   {
     fantallenatore1: "BENEVENGO",
     fantallenatore2: "ASTON BIRRA",
-    formazione1: {
-     titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
-      panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
-      /*voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]*/
+   formazione1: {
+      titolari:["P1 - Maignan", "D2 - Smalling", "D3 - Hernandez T", "D4 - Bastoni", "C5 - Milinkovic-Savic", "C6 - Frattesi", "C7 - Elmas", "C8 - Samardzic", "A9 - Giroud", "A10 - Immobile", "A11 - Arnautovic"],
+      panchinari:["P12 - Tatarusanu", "P13 - Milinkovic-Savic V", "D14 - Rrahmani", "D15 - Pellegrini Lu", "D16 - Nuytinck", "C17 - Wijnaldum", "C18 - Ederson J", "A19 - Lookman"],
 
-        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]  
+      /*voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]*/
+
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+        
+
     },
     formazione2: {
-      titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
-      panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
-      /*voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]*/
-
-        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+      titolari:  [],
+      panchinari:  [],
+      voti: []
     }
-   },
+  },
     {
     fantallenatore1: "MIGNOTTINGHAM FOREST FC",
     fantallenatore2: "DRINK TEAM",
