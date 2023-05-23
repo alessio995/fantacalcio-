@@ -683,9 +683,9 @@ function mostraFormazioniLive() {
         voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     },
     formazione2: {
-       titolari:  ["P - MAIGNAN", "D - SMALLING", "D - HERNANDEZ T", "D - RRAHMANI", "C - MILINKOVIC-SAVIC", "C - FRATTESI", "C - WIJNALDUM", "C - ELMAS", "A - GIROUD", "A - IMMOBILE", "A - ARNAUTOVIC"],
-      panchinari:  ["P - TATARUSANU", "P - MILINKOVIC-SAVIC V", "D - BASTONI", "D - PELLEGRINI LU", "D - NUYTINCK", "C - SAMARDZIC", "C - EDERSON J", "A - LOOKMAN", "A - LAURIENTE"],
-      voti: [5, 0, 5.5, 6.5, 5.5,6.5,0,5.5,16.5,9,10.5,0,0,0,0,5,0,6,7.5,0]
+       titolari:  [],
+      panchinari:  [],
+      voti: []
     }
   },
   {
