@@ -673,13 +673,14 @@ function mostraFormazioniLive() {
     }
   },
     {
-    fantallenatore1: "TEAMCHIAPPETTO",
-    fantallenatore2: "MIGNOTTINGHAM FOREST FC",
+    fantallenatore1: "MIGNOTTINGHAM FOREST FC",
+    fantallenatore2: "DRINK TEAM",
     formazione1: {
-      titolari: ["P - SZCZESNY", "D - TOLJAN", "D - DIMARCO", "D - BIJOL", "C - PEREYRA", "C - BAJRAMI", "C - FERGUSON", "C - MESSIAS", "A - LUKAKU R", "A - LEAO", "A - NZOLA"],
-      panchinari: ["P - PERIN", "P - ONANA", "D - ZORTEA", "D - MARUSIC", "D - MARIO RUI", "D - BIRINDELLI", "C - KOSTIC", "C - POLITANO", "C - LOBOTKA", "A - BETO", "A - PINAMONTI", "A - PICCOLI"],
+      titolari: ["P1 - Maignan", "D2 - Smalling", "D3 - Hernandez T", "D4 - Bastoni", "C5 - Milinkovic-Savic", "C6 - Frattesi", "C7 - Elmas", "C8 - Samardzic", "A9 - Giroud", "A10 - Immobile", "A11 - Arnautovic"],
+      panchinari: ["P12 - Tatarusanu", "P13 - Milinkovic-Savic V", "D14 - Rrahmani", "D15 - Pellegrini Lu", "D16 - Nuytinck", "C17 - Wijnaldum", "C18 - Ederson J", "A19 - Lookman"],
 
-      voti: [0, 6, 7.5, 5, 6,6,10.5,6,10,12,6,0,6,0,0,0,7.5,0,0,0,0,6,0]
+      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     },
     formazione2: {
        titolari:  ["P - MAIGNAN", "D - SMALLING", "D - HERNANDEZ T", "D - RRAHMANI", "C - MILINKOVIC-SAVIC", "C - FRATTESI", "C - WIJNALDUM", "C - ELMAS", "A - GIROUD", "A - IMMOBILE", "A - ARNAUTOVIC"],
@@ -688,17 +689,20 @@ function mostraFormazioniLive() {
     }
   },
   {
-    fantallenatore1: "DRINK TEAM ",
-    fantallenatore2: "ASTON BIRRA",
+    fantallenatore1: "AS TROMBA ",
+    fantallenatore2: "TEAMCHIAPPETTO",
     formazione1: {
-      titolari: ["P - MERET", "D - DUMFRIES", "D - TOMORI", "D - POSCH", "C - BROZOVIC", "C - SAELEMAEKERS", "C - LUIS ALBERTO", "C - DI MARIA", "A - KVARATSKHELIA", "A - OSIMHEN", "A - ABRAHAM"],
-      panchinari: ["P - GOLLINI", "P - MARFELLA", "D - PEREZ N", "D - LAZZARI M", "D - HYSAJ", "D - IGOR", "C - CHIESA", "C - LOPEZ M", "C - MATIC", "C - GONZALEZ J", "A - PEDRO R", "A - ORIGI", "A - ALVAREZ A"],
-      voti: [5, 6, 6.5, 10, 5.5,6.5,7,0,7,5.5,0,0,0,0,0,0,0,0,6.5,0,0,0,0,0]
+      titolari: ["P1 - Musso", "D2 - Parisi F", "D3 - Scalvini", "D4 - Acerbi", "D5 - Kim", "C6 - Koopmeiners", "C7 - Pellegrini", "C8 - Pessina", "A9 - Hojlund", "A10 - Okereke", "A11 - Martinez L"],
+      panchinari: ["P12 - Sportiello", "P13 - Rossi F", "D14 - Becao", "D15 - Valeri", "D16 - Bradaric D", "D17 - Gabbia", "C18 - Volpato C", "C19 - Pogba", "C20 - Vlasic", "C21 - Sabiri", "C22 - Fagioli", "C23 - Basic", "A24 - El Shaarawy", "A25 - Ibrahimovic", "A26 - Satriano", "A27 - De Luca"],
+    //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+      voti: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+       
     },
     formazione2: {
-      titolari: ["P - TERRACCIANO", "D - DI LORENZO", "D - CARLOS AUGUSTO", "D - MAEHLE", "C - BARELLA", "C - ZIELINSKI", "C - ZACCAGNI", "C - STREFEZZA", "A - DIA", "A - MILIK", "A - CAPRARI"],
-      panchinari: ["P - SIRIGU", "P - CEROFOLINI", "D - ROMAGNOLI A", "D - UDOGIE", "D - FERRARI G", "D - HOLM", "C - GONZALEZ N", "C - DE KETELAERE", "C - THORSTVEDT", "A - DZEKO", "A - CAPUTO", "A - ZAPATA D", "A - SOULE"],
-      voti: [0, 10.5, 6.5, 6, 6.5,7.5,6.5,6,0,0,5.5,0,0,0,0,6,0,0,0,5.5,0,0,0,0]
+      titolari: ["P1 - Onana", "D2 - Toljan", "D3 - Dimarco", "D4 - Birindelli", "C5 - Lobotka", "C6 - Pereyra", "C7 - Bajrami", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Nzola"],
+      panchinari: ["P12 - Szczesny", "P13 - Perin", "D14 - Zortea", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Kostic", "C19 - Ferguson", "C20 - Messias", "A21 - Pinamonti", "A22 - Beto", "A23 - Piccoli"],
+     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+       voti: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     }
   }
   ];
