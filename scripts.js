@@ -694,14 +694,14 @@ function mostraFormazioniLive() {
     formazione1: {
       titolari: ["P1 - Musso", "D2 - Parisi F", "D3 - Scalvini", "D4 - Acerbi", "D5 - Kim", "C6 - Koopmeiners", "C7 - Pellegrini", "C8 - Pessina", "A9 - Hojlund", "A10 - Okereke", "A11 - Martinez L"],
       panchinari: ["P12 - Sportiello", "P13 - Rossi F", "D14 - Becao", "D15 - Valeri", "D16 - Bradaric D", "D17 - Gabbia", "C18 - Volpato C", "C19 - Pogba", "C20 - Vlasic", "C21 - Sabiri", "C22 - Fagioli", "C23 - Basic", "A24 - El Shaarawy", "A25 - Ibrahimovic", "A26 - Satriano", "A27 - De Luca"],
-   "//voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]"
+    /*voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]*/
       voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
         
     },
     formazione2: {
       titolari: ["P1 - Onana", "D2 - Toljan", "D3 - Dimarco", "D4 - Birindelli", "C5 - Lobotka", "C6 - Pereyra", "C7 - Bajrami", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Nzola"],
       panchinari: ["P12 - Szczesny", "P13 - Perin", "D14 - Zortea", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Kostic", "C19 - Ferguson", "C20 - Messias", "A21 - Pinamonti", "A22 - Beto", "A23 - Piccoli"],
-      "//voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+       /*voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]*/
          voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     }
   }
