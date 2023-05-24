@@ -438,7 +438,7 @@ const rose = {
 const classifica = [
     {
       posizione: 1,
-      squadra: 'MIGHOTTINGHAN FOREST FC',
+      squadra: 'MIGHOTTINGHAN FOREST FC - Roberto',
       punti: 59,
       vinte: 16,
       pareggiate: 9,
@@ -449,7 +449,7 @@ const classifica = [
     },
     {
       posizione: 2,
-      squadra: 'TEAM CHIAPPETTO',
+      squadra: 'TEAM CHIAPPETTO - Alessio',
       punti: 57,
       vinte: 16,
       pareggiate: 9,
@@ -461,7 +461,7 @@ const classifica = [
     
     {
       posizione: 3,
-      squadra: 'DRINK TEAM',
+      squadra: 'DRINK TEAM - Alessandro',
       punti: 56,
       vinte: 17,
       pareggiate: 6,
@@ -473,7 +473,7 @@ const classifica = [
   
   {
       posizione: 4,
-      squadra: 'ASTON BIRRA',
+      squadra: 'ASTON BIRRA - Simone',
       punti: 48,
       vinte: 14,
       pareggiate: 6,
@@ -484,7 +484,7 @@ const classifica = [
     },
   {
       posizione: 5,
-      squadra: 'BENEVENGO',
+      squadra: 'BENEVENGO - Brandol',
       punti: 43,
       vinte: 12,
       pareggiate: 7,
@@ -495,7 +495,7 @@ const classifica = [
     },
   {
       posizione: 6,
-      squadra: 'AS TROMBA',
+      squadra: 'AS TROMBA - Alfonso',
       punti: 37,
       vinte: 8,
       pareggiate: 13,
