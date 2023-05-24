@@ -438,7 +438,7 @@ const rose = {
 const classifica = [
     {
       posizione: 1,
-      squadra: 'MIGHOTTINGHAN FOREST FC - Roberto',
+      squadra: 'MIGHOTTINGHAN FOREST FC',
       punti: 59,
       vinte: 16,
       pareggiate: 9,
@@ -449,7 +449,7 @@ const classifica = [
     },
     {
       posizione: 2,
-      squadra: 'TEAM CHIAPPETTO - Alessio',
+      squadra: 'TEAM CHIAPPETTO',
       punti: 57,
       vinte: 16,
       pareggiate: 9,
@@ -461,7 +461,7 @@ const classifica = [
     
     {
       posizione: 3,
-      squadra: 'DRINK TEAM - Alessandro',
+      squadra: 'DRINK TEAM',
       punti: 56,
       vinte: 17,
       pareggiate: 6,
@@ -473,7 +473,7 @@ const classifica = [
   
   {
       posizione: 4,
-      squadra: 'ASTON BIRRA - Simone',
+      squadra: 'ASTON BIRRA',
       punti: 48,
       vinte: 14,
       pareggiate: 6,
@@ -484,7 +484,7 @@ const classifica = [
     },
   {
       posizione: 5,
-      squadra: 'BENEVENGO - Brandol',
+      squadra: 'BENEVENGO',
       punti: 43,
       vinte: 12,
       pareggiate: 7,
@@ -495,7 +495,7 @@ const classifica = [
     },
   {
       posizione: 6,
-      squadra: 'AS TROMBA - Alfonso',
+      squadra: 'AS TROMBA',
       punti: 37,
       vinte: 8,
       pareggiate: 13,
@@ -699,8 +699,8 @@ function mostraFormazioniLive() {
        
     },
     formazione2: {
-      titolari: ["P1 - Onana", "D2 - Toljan", "D3 - Dimarco", "D4 - Birindelli", "C5 - Messias", "C6 - Pereyra", "C7 - Bajrami", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Nzola"],
-      panchinari: ["P12 - Szczesny", "P13 - Perin", "D14 - Zortea", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Kostic", "C19 - Ferguson", "C20 - Lobotka", "A21 - Pinamonti", "A22 - Beto", "A23 - Piccoli"],
+      titolari: ["P1 - Onana", "D2 - Toljan", "D3 - Dimarco", "D4 - Birindelli", "C5 - Lobotka", "C6 - Pereyra", "C7 - Bajrami", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Nzola"],
+      panchinari: ["P12 - Szczesny", "P13 - Perin", "D14 - Zortea", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Kostic", "C19 - Ferguson", "C20 - Messias", "A21 - Pinamonti", "A22 - Beto", "A23 - Piccoli"],
      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     }
@@ -718,40 +718,69 @@ function mostraFormazioniLive() {
   ...sfida.formazione2.panchinari,
 ];
 
-    table.innerHTML = `
-      <caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
-      <thead>
-        <tr>
-  <td colspan="2">Titolari</td>
-  <td colspan="2">Titolari</td>
+   //... codice precedente ...
 
-</tr>
-${sfida.formazione1.titolari.map((giocatore, index) => `
+table.innerHTML = `
+<caption>${sfida.fantallenatore1} vs ${sfida.fantallenatore2}</caption>
+<thead>
   <tr>
-    <td class="titolari-nome">${giocatore}</td>
-    <td class="titolari-voto lampeggiare">${sfida.formazione1.voti[index]}</td>
-    <td class="titolari-nome">${sfida.formazione2.titolari[index]}</td>
-    <td class="titolari-voto lampeggiare">${sfida.formazione2.voti[index]}</td>
+    <td colspan="2">Titolari</td>
+    <td colspan="2">Titolari</td>
   </tr>
-`).join("")}
-<tr>
-  <td colspan="2">Panchinari</td>
-  <td colspan="2">Panchinari</td>
+  ${sfida.formazione1.titolari.map((giocatore, index) => `
+    <tr>
+      <td class="titolari-nome">${giocatore}</td>
+      <td class="titolari-voto lampeggiare" contenteditable="true">${sfida.formazione1.voti[index]}</td>
+      <td class="titolari-nome">${sfida.formazione2.titolari[index]}</td>
+      <td class="titolari-voto lampeggiare" contenteditable="true">${sfida.formazione2.voti[index]}</td>
+    </tr>
+  `).join("")}
+  <tr>
+    <td colspan="2">Panchinari</td>
+    <td colspan="2">Panchinari</td>
+  </tr>
+  ${sfida.formazione1.panchinari.map((giocatore, index) => `
+    <tr>
+      <td class="panchinari-nome">${giocatore}</td>
+      <td class="panchinari-voto" contenteditable="true">${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
+      <td class="panchinari-nome">${sfida.formazione2.panchinari[index]}</td>
+      <td class="panchinari-voto" contenteditable="true">${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
+    </tr>
+  `).join("")}
+  <tr>
+    <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari1}</td>
+    <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari2}</td>
+  </tbody>
+`;
 
-</tr>
-${sfida.formazione1.panchinari.map((giocatore, index) => `
-  <tr>
-    <td class="panchinari-nome">${giocatore}</td>
-    <td class="panchinari-voto">${sfida.formazione1.voti[sfida.formazione1.titolari.length + index]}</td>
-    <td class="panchinari-nome">${sfida.formazione2.panchinari[index]}</td>
-    <td class="panchinari-voto">${sfida.formazione2.voti[sfida.formazione2.titolari.length + index]}</td>
-  </tr>
-`).join("")}
-<tr>
-  <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari1}</td>
-  <td colspan="2" class="somma-titolari">Somma Titolari: ${sommaTitolari2}</td>
-      </tbody>
-    `;
+const celleModificabili = table.querySelectorAll("[contenteditable='true']");
+
+celleModificabili.forEach((cell, index) => {
+cell.addEventListener('blur', (e) => {
+  const nuovoVoto = parseFloat(e.target.textContent);
+  if (!isNaN(nuovoVoto)) {
+    if(cell.className.includes('titolari-voto')){
+      sfida.formazione1.voti[index] = nuovoVoto;
+    } else {
+      sfida.formazione1.voti[sfida.formazione1.titolari.length + index] = nuovoVoto;
+    }
+  }
+});
+});
+
+
+
+const panchinariVotiCells = table.getElementsByClassName('panchinari-voto');
+Array.from(panchinariVotiCells).forEach((cell, index) => {
+  cell.addEventListener('input', (e) => {
+    const nuovoVoto = parseFloat(e.target.textContent);
+    if (!isNaN(nuovoVoto)) {
+      sfida.formazione2.voti[index] = nuovoVoto;
+    }
+  });
+});
+// ...
+
     formazioniLiveContainer.appendChild(table);
   });
 // Aggiorna i voti dei giocatori
