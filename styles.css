@@ -283,3 +283,7 @@ table {
 }
 
 /* altri stili */
+.lampeggiare {
+  color: red;
+  animation: none;  /* Rimuove l'animazione lampeggiante */
+}
