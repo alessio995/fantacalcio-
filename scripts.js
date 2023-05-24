@@ -654,7 +654,13 @@ function aggiornaClassifica() {
 function mostraFormazioniLive() {
   const formazioniLiveContainer = document.getElementById("formazioni-live-container");
   formazioniLiveContainer.innerHTML = "";
-
+  function mostraFormazioniLive() {
+    // Recupera i dati dal localStorage
+    const sfide = JSON.parse(localStorage.getItem('sfide')) || [];
+  
+    // ...
+  }
+  
   const sfide = [
   {
     fantallenatore1: "BENEVENGO",
@@ -760,16 +766,18 @@ table.innerHTML = `
 const celleModificabili = table.querySelectorAll("[contenteditable='true']");
 
 celleModificabili.forEach((cell, index) => {
-cell.addEventListener('blur', (e) => {
-  const nuovoVoto = parseFloat(e.target.textContent);
-  if (!isNaN(nuovoVoto)) {
-    if(cell.className.includes('titolari-voto')){
-      sfida.formazione1.voti[index] = nuovoVoto;
-    } else {
-      sfida.formazione1.voti[sfida.formazione1.titolari.length + index] = nuovoVoto;
+  cell.addEventListener('blur', (e) => {
+    const nuovoVoto = parseFloat(e.target.textContent);
+    if (!isNaN(nuovoVoto)) {
+      if (cell.className.includes('titolari-voto')) {
+        sfida.formazione1.voti[index] = nuovoVoto;
+      } else {
+        sfida.formazione1.voti[sfida.formazione1.titolari.length + index] = nuovoVoto;
+      }
+      // Salva le modifiche nel localStorage
+      localStorage.setItem('sfide', JSON.stringify(sfide));
     }
-  }
-});
+  });
 });
 
 const sommaTitolari1Cell = table.querySelector('.somma-titolari-1');
