@@ -709,6 +709,10 @@ function mostraFormazioniLive() {
 
   sfide.forEach((sfida) => {
     const table = document.createElement("table");
+    const updateScores = () => {
+      sommaTitolari1Cell.textContent = "Somma Titolari: " + sfida.formazione1.voti.slice(0, sfida.formazione1.titolari.length).reduce((a, b) => a + b, 0);
+      sommaTitolari2Cell.textContent = "Somma Titolari: " + sfida.formazione2.voti.slice(0, sfida.formazione2.titolari.length).reduce((a, b) => a + b, 0);
+    };
     const sommaTitolari1 = sfida.formazione1.voti.slice(0, sfida.formazione1.titolari.length).reduce((a, b) => a + b, 0);
     const sommaTitolari2 = sfida.formazione2.voti.slice(0, sfida.formazione2.titolari.length).reduce((a, b) => a + b, 0);
     const tuttiIGiocatori = [
@@ -768,19 +772,31 @@ cell.addEventListener('blur', (e) => {
 });
 });
 
+const sommaTitolari1Cell = table.querySelector('.somma-titolari-1');
+    const sommaTitolari2Cell = table.querySelector('.somma-titolari-2');
+
+    const titolariVotiCells = table.getElementsByClassName('titolari-voto');
+    Array.from(titolariVotiCells).forEach((cell, index) => {
+      cell.addEventListener('input', (e) => {
+        const nuovoVoto = parseFloat(e.target.textContent);
+        if (!isNaN(nuovoVoto)) {
+          sfida.formazione1.voti[index] = nuovoVoto;
+          updateScores();
+        }
+      });
+    });
 
 
-const panchinariVotiCells = table.getElementsByClassName('panchinari-voto');
-Array.from(panchinariVotiCells).forEach((cell, index) => {
-  cell.addEventListener('input', (e) => {
-    const nuovoVoto = parseFloat(e.target.textContent);
-    if (!isNaN(nuovoVoto)) {
-      sfida.formazione2.voti[index] = nuovoVoto;
-    }
-  });
-});
-// ...
-
+    const panchinariVotiCells = table.getElementsByClassName('panchinari-voto');
+    Array.from(panchinariVotiCells).forEach((cell, index) => {
+      cell.addEventListener('input', (e) => {
+        const nuovoVoto = parseFloat(e.target.textContent);
+        if (!isNaN(nuovoVoto)) {
+          sfida.formazione2.voti[index] = nuovoVoto;
+          updateScores();
+        }
+      });
+    });
     formazioniLiveContainer.appendChild(table);
   });
 // Aggiorna i voti dei giocatori
