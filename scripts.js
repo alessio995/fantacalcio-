@@ -663,15 +663,15 @@ function mostraFormazioniLive() {
   
   const sfide = [
   {
-    fantallenatore1: "ASTON BIRRA",
-    fantallenatore2: "BENEVENGO",
-    formazione2: {
-      titolari: ["da inserire"],
-      panchinari: ["da inserire"],
-    //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-      voti: [0]
-    },
+    fantallenatore1: "BENEVENGO",
+    fantallenatore2: "ASTON BIRRA",
     formazione1: {
+      titolari:["da inserire1", "da inserire2", "da inserire3", "da inserire4", "da inserire5", "da inserire6", "da inserire7", "da inserire8", "da inserire9", "da inserire10", "da inserire11"] ,
+      panchinari:["da inserire12", "da inserire13", "da inserire14", "da inserire15", "da inserire16", "da inserire17", "da inserire18", "da inserire19", "da inserire20", "da inserire21", "da inserire22", "da inserire23", "da inserire24"] ,
+    //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+      voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+    },
+    formazione2: {
       titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
       panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
