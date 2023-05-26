@@ -689,9 +689,11 @@ function mostraFormazioniLive() {
         voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     },
     formazione2: {
-       titolari:  [],
-      panchinari:  [],
-      voti: []
+       titolari: ["P1 - Meret", "D2 - Posch", "D3 - Dumfries", "D4 - Tomori", "C5 - Bonaventura", "C6 - Chiesa", "C7 - Matic", "C8 - Luis Alberto", "A9 - Kvaratskhelia", "A10 - Abraham", "A11 - Osimhen"] ,
+      panchinari: ["P12 - Gollini", "P13 - Marfella", "D14 - Lazzari M", "D15 - Hysaj", "D16 - Perez N", "D17 - Igor", "C18 - Di Maria", "C19 - Brozovic", "C20 - Lopez M", "C21 - Saelemaekers", "A22 - Pedro R", "A23 - Origi", "A24 - Alvarez A"] ,
+      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     }
   },
   {
