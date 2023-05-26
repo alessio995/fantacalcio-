@@ -683,10 +683,10 @@ function mostraFormazioniLive() {
     fantallenatore2: "DRINK TEAM",
     formazione1: {
       titolari: ["P1 - Maignan", "D2 - Smalling", "D3 - Hernandez T", "D4 - Bastoni", "C5 - Milinkovic-Savic", "C6 - Frattesi", "C7 - Elmas", "C8 - Samardzic", "A9 - Giroud", "A10 - Immobile", "A11 - Arnautovic"],
-      panchinari: ["P12 - Tatarusanu", "P13 - Milinkovic-Savic V", "D14 - Rrahmani", "D15 - Pellegrini Lu", "D16 - Nuytinck", "C17 - Wijnaldum", "C18 - Ederson J", "A19 - Lookman"],
+      panchinari: ["P12 - Tatarusanu", "P13 - Milinkovic-Savic V", "D14 - Rrahmani", "D15 - Pellegrini Lu", "D16 - Nuytinck", "C17 - Wijnaldum", "C18 - Ederson J", "A19 - Lookman","un","un","un","un","un"],
 
-      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     },
     formazione2: {
        titolari: ["P1 - Meret", "D2 - Posch", "D3 - Dumfries", "D4 - Tomori", "C5 - Bonaventura", "C6 - Chiesa", "C7 - Matic", "C8 - Luis Alberto", "A9 - Kvaratskhelia", "A10 - Abraham", "A11 - Osimhen"] ,
