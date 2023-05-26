@@ -666,8 +666,8 @@ function mostraFormazioniLive() {
     fantallenatore1: "BENEVENGO",
     fantallenatore2: "ASTON BIRRA",
     formazione1: {
-      titolari:["da inserire1", "da inserire2", "da inserire3", "da inserire4", "da inserire5", "da inserire6", "da inserire7", "da inserire8", "da inserire9", "da inserire10", "da inserire11"] ,
-      panchinari:["da inserire12", "da inserire13", "da inserire14", "da inserire15", "da inserire16", "da inserire17", "da inserire18", "da inserire19", "da inserire20", "da inserire21", "da inserire22", "da inserire23", "da inserire24"] ,
+      titolari:["P1 - Svilar", "D2 - Dodo D", "D3 - Cuadrado", "D4 - Cambiaso", "C5 - Calhanoglu", "C6 - Tonali", "C7 - Felipe Anderson", "C8 - Miranchuk", "A9 - Berardi", "A10 - Vlahovic", "A11 - Sanabria"],
+      panchinari:["P12 - Rui Patricio", "P13 - Boer", "D14 - Hateboer", "D15 - Celik", "D16 - Djimsiti", "D17 - Lykogiannis", "C18 - Djuricic", "C19 - Sensi", "C20 - Brekalo", "C21 - Ricci S", "A22 - Dybala", "A23 - Ciurria", "A24 - Rebic", "A25 - Shomurodov"]
     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
       voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     },
