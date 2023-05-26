@@ -666,10 +666,10 @@ function mostraFormazioniLive() {
     fantallenatore1: "BENEVENGO",
     fantallenatore2: "ASTON BIRRA",
     formazione1: {
-      titolari: [],
-      panchinari: [],
+      titolari: ["da inserire"],
+      panchinari: ["da inserire"],
     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-      voti: []
+      voti: [0]
     },
     formazione2: {
       titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
