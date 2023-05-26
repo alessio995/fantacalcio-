@@ -663,15 +663,15 @@ function mostraFormazioniLive() {
   
   const sfide = [
   {
-    fantallenatore1: "BENEVENGO",
-    fantallenatore2: "ASTON BIRRA",
-    formazione1: {
+    fantallenatore1: "ASTON BIRRA",
+    fantallenatore2: "BENEVENGO",
+    formazione2: {
       titolari: ["da inserire"],
       panchinari: ["da inserire"],
     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
       voti: [0]
     },
-    formazione2: {
+    formazione1: {
       titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
       panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
