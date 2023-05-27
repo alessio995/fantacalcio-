@@ -686,14 +686,14 @@ function mostraFormazioniLive() {
       panchinari: ["P12 - Tatarusanu", "P13 - Milinkovic-Savic V", "D14 - Rrahmani", "D15 - Pellegrini Lu", "D16 - Nuytinck", "C17 - Wijnaldum", "C18 - Ederson J", "A19 - Lookman","un","un","un","un","un"],
 
       //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,   19, 20, 21, 22, 23, 24]
-        voti: [0, 7, 0, 7, 0, 0, 0, 6, 0,  0,  0,  0,  0,  0,  0,  6,  0,  0,  5.5,  0,  0,  0,  0,  0]
+        voti: [0, 7, 0, 7, 0, 0, 6, 6, 0,  0,  0,  0,  0,  0,  0,  6,  0,  0,  5.5,  0,  0,  0,  0,  0]
     },
     formazione2: {
        titolari: ["P1 - Meret", "D2 - Posch", "D3 - Dumfries", "D4 - Tomori", "C5 - Bonaventura", "C6 - Chiesa", "C7 - Matic", "C8 - Luis Alberto", "A9 - Kvaratskhelia", "A10 - Abraham", "A11 - Osimhen"] ,
       panchinari: ["P12 - Gollini", "P13 - Marfella", "D14 - Lazzari M", "D15 - Hysaj", "D16 - Perez N", "D17 - Igor", "C18 - Di Maria", "C19 - Brozovic", "C20 - Lopez M", "C21 - Saelemaekers", "A22 - Pedro R", "A23 - Origi", "A24 - Alvarez A"] ,
-      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,   16, 17, 18, 19, 20, 21, 22, 23, 24]
 
-        voti: [0, 0, 6, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  8,  6,  0,  0,  0,  0]
+        voti: [0, 0, 6, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  5.5,  0,  0,  8,  6,  0,  0,  0,  0]
     }
   },
   {
@@ -709,8 +709,8 @@ function mostraFormazioniLive() {
     formazione2: {
       titolari: ["P1 - Onana", "D2 - Zortea", "D3 - Dimarco", "D4 - Birindelli", "C5 - Messias", "C6 - Pereyra", "C7 - Kostic", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Pinamonti"],
       panchinari:["P12 - Szczesny", "P13 - Perin", "D14 - Toljan", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Bajrami", "C19 - Ferguson", "C20 - Lobotka", "A21 - Nzola", "A22 - Beto", "A23 - Piccoli"] ,
-     //voti: [  1, 2,   3, 4, 5, 6, 7, 8,   9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
-       voti: [1.5, 8, 6.5, 0, 0, 0, 0, 0, 10.5,  0, 5.5,  0,  0,  0,  0,  0,  0,  6,  0,  0,  0,  0,  0]
+     //voti: [  1, 2,   3, 4, 5,   6, 7, 8,   9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+       voti: [1.5, 8, 6.5, 0, 0, 7.5, 0, 0, 10.5,  0, 5.5,  0,  0,  0,  0,  0,  0,  6,  0,  0,  0,  0,  0]
     }
   }
   ];
