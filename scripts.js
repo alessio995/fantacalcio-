@@ -669,13 +669,13 @@ function mostraFormazioniLive() {
       titolari:["P1 - Svilar", "D2 - Dodo D", "D3 - Cuadrado", "D4 - Cambiaso", "C5 - Calhanoglu", "C6 - Tonali", "C7 - Felipe Anderson", "C8 - Miranchuk", "A9 - Berardi", "A10 - Vlahovic", "A11 - Sanabria"],
       panchinari:["P12 - Rui Patricio", "P13 - Boer", "D14 - Hateboer", "D15 - Celik", "D16 - Djimsiti", "D17 - Lykogiannis", "C18 - Djuricic", "C19 - Sensi", "C20 - Brekalo", "C21 - Ricci S", "A22 - Dybala", "A23 - Ciurria", "A24 - Rebic", "A25 - Shomurodov"],
     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
-      voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+      voti: [0, 0, 0, 0, 0, 0, 0, 0, 10.5,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     },
     formazione2: {
       titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
       panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
     //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-      voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+      voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  5,  0,  0,  0,  0,  0, 5.5,  0,  0,  0,  0]
     }
   },
     {
@@ -686,14 +686,14 @@ function mostraFormazioniLive() {
       panchinari: ["P12 - Tatarusanu", "P13 - Milinkovic-Savic V", "D14 - Rrahmani", "D15 - Pellegrini Lu", "D16 - Nuytinck", "C17 - Wijnaldum", "C18 - Ederson J", "A19 - Lookman","un","un","un","un","un"],
 
       //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  6,  0,  0,  0,  0,  0,  0,  0,  0]
     },
     formazione2: {
        titolari: ["P1 - Meret", "D2 - Posch", "D3 - Dumfries", "D4 - Tomori", "C5 - Bonaventura", "C6 - Chiesa", "C7 - Matic", "C8 - Luis Alberto", "A9 - Kvaratskhelia", "A10 - Abraham", "A11 - Osimhen"] ,
       panchinari: ["P12 - Gollini", "P13 - Marfella", "D14 - Lazzari M", "D15 - Hysaj", "D16 - Perez N", "D17 - Igor", "C18 - Di Maria", "C19 - Brozovic", "C20 - Lopez M", "C21 - Saelemaekers", "A22 - Pedro R", "A23 - Origi", "A24 - Alvarez A"] ,
       //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
 
-        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+        voti: [0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  6,  0,  0,  0,  0]
     }
   },
   {
@@ -710,7 +710,7 @@ function mostraFormazioniLive() {
       titolari: ["P1 - Onana", "D2 - Zortea", "D3 - Dimarco", "D4 - Birindelli", "C5 - Messias", "C6 - Pereyra", "C7 - Kostic", "C8 - Politano", "A9 - Lukaku R", "A10 - Leao", "A11 - Pinamonti"],
       panchinari:["P12 - Szczesny", "P13 - Perin", "D14 - Toljan", "D15 - Marusic", "D16 - Mario Rui", "D17 - Bijol", "C18 - Bajrami", "C19 - Ferguson", "C20 - Lobotka", "A21 - Nzola", "A22 - Beto", "A23 - Piccoli"] ,
      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
-       voti: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+       voti: [0, 8, 0, 0, 0, 0, 0, 0, 0,  0, 5.5,  0,  0,  0,  0,  0,  0,  6,  0,  0,  0,  0,  0]
     }
   }
   ];
