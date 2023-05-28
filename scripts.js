@@ -691,9 +691,9 @@ function mostraFormazioniLive() {
     formazione2: {
        titolari: ["P1 - Meret", "D2 - Posch", "D3 - Dumfries", "D4 - Tomori", "C5 - Bonaventura", "C6 - Chiesa", "C7 - Matic", "C8 - Luis Alberto", "A9 - Kvaratskhelia", "A10 - Abraham", "A11 - Osimhen"] ,
       panchinari: ["P12 - Gollini", "P13 - Marfella", "D14 - Lazzari M", "D15 - Hysaj", "D16 - Perez N", "D17 - Igor", "C18 - Di Maria", "C19 - Brozovic", "C20 - Lopez M", "C21 - Saelemaekers", "A22 - Pedro R", "A23 - Origi", "A24 - Alvarez A"] ,
-      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,   16, 17, 18, 19, 20, 21, 22, 23, 24]
+      //voti: [1, 2, 3, 4, 5, 6, 7, 8, 9,   10, 11, 12, 13, 14, 15,   16, 17, 18, 19, 20, 21, 22, 23, 24]
 
-        voti: [0, 0, 6, 0, 0, 0, 0, 0, 0,  0,  0,  0,  0,  0,  0,  5.5,  0,  0,  8,  6,  0,  0,  0,  0]
+        voti: [0, 0, 6, 0, 0, 0, 0, 0, 0,  5.5,  0,  0,  0,  0,  0,  5.5,  0,  0,  8,  6,  0,  0,  0,  0]
     }
   },
   {
@@ -703,7 +703,7 @@ function mostraFormazioniLive() {
       titolari: ["P1 - Musso", "D2 - Parisi F", "D3 - Scalvini", "D4 - Acerbi", "D5 - Kim", "C6 - Koopmeiners", "C7 - Pellegrini", "C8 - Pessina", "A9 - Hojlund", "A10 - Okereke", "A11 - Martinez L"],
       panchinari: ["P12 - Sportiello", "P13 - Rossi F", "D14 - Becao", "D15 - Valeri", "D16 - Bradaric D", "D17 - Gabbia", "C18 - Volpato C", "C19 - Pogba", "C20 - Vlasic", "C21 - Sabiri", "C22 - Fagioli", "C23 - Basic", "A24 - El Shaarawy", "A25 - Ibrahimovic", "A26 - Satriano", "A27 - De Luca"],
     //voti: [  1, 2,   3, 4, 5, 6, 7, 8,   9, 10,   11,   12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,  24, 25, 26, 27]
-      voti: [  0, 0, 5.5, 7, 0, 6, 0, 0, 5.5, 0,  11.5,  3.5,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  10,  0,  0,  0]
+      voti: [  0, 0, 5.5, 7, 0, 6, 0, 0, 5.5, 0,  11.5,  3.5,  0,  0,  0,  6,  0,  0,  0,  0,  0,  0,  0,  10,  0,  0,  0]
        
     },
     formazione2: {
