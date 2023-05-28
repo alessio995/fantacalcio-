@@ -668,14 +668,14 @@ function mostraFormazioniLive() {
     formazione1: {
       titolari:["P1 - Svilar", "D2 - Dodo D", "D3 - Cuadrado", "D4 - Cambiaso", "C5 - Calhanoglu", "C6 - Tonali", "C7 - Felipe Anderson", "C8 - Miranchuk", "A9 - Berardi", "A10 - Vlahovic", "A11 - Sanabria"],
       panchinari:["P12 - Rui Patricio", "P13 - Boer", "D14 - Hateboer", "D15 - Celik", "D16 - Djimsiti", "D17 - Lykogiannis", "C18 - Djuricic", "C19 - Sensi", "C20 - Brekalo", "C21 - Ricci S", "A22 - Dybala", "A23 - Ciurria", "A24 - Rebic", "A25 - Shomurodov"],
-    //voti: [  1,   2, 3, 4,   5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
-      voti: [3.5, 6.5, 0, 0, 6.5, 0, 0, 0, 10.5,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
+    //voti: [  1,   2, 3, 4,   5, 6, 7,   8,    9,   10,  11, 12, 13, 14,  15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+      voti: [3.5, 6.5, 0, 0, 6.5, 0, 0, 6.5, 10.5,  7.5,  0,  0,  0,  0,  5.5,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]
     },
     formazione2: {
       titolari: ["P1 - Terracciano", "D2 - Carlos Augusto", "D3 - Di Lorenzo", "D4 - Romagnoli A", "C5 - Barella", "C6 - Zielinski", "C7 - Zaccagni", "C8 - Strefezza", "A9 - Dia", "A10 - Caprari", "A11 - Caputo"],
       panchinari: ["P12 - Cerofolini", "P13 - Sirigu", "D14 - Ferrari G", "D15 - Maehle", "D16 - Udogie", "D17 - Holm", "C18 - Gonzalez N", "C19 - De Ketelaere", "C20 - Thorstvedt", "A21 - Dzeko", "A22 - Milik", "A23 - Soule", "A24 - Zapata D"],
     //voti: [1, 2, 3, 4,    5, 6, 7, 8, 9, 10, 11, 12, 13, 14,   15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-      voti: [0, 0, 0, 0, 10.5, 0, 0, 0, 0,  0,  0,  0,  0,  5,  5.5,  0,  0,  0,  0, 5.5,  0,  0,  0,  0]
+      voti: [0, 0, 0, 0, 10.5, 0, 0, 0, 0,  0,  0,  6,  0,  5,  5.5,  0,  0,  0,  0, 5.5,  0,  0,  0,  0]
     }
   },
     {
@@ -703,7 +703,7 @@ function mostraFormazioniLive() {
       titolari: ["P1 - Musso", "D2 - Parisi F", "D3 - Scalvini", "D4 - Acerbi", "D5 - Kim", "C6 - Koopmeiners", "C7 - Pellegrini", "C8 - Pessina", "A9 - Hojlund", "A10 - Okereke", "A11 - Martinez L"],
       panchinari: ["P12 - Sportiello", "P13 - Rossi F", "D14 - Becao", "D15 - Valeri", "D16 - Bradaric D", "D17 - Gabbia", "C18 - Volpato C", "C19 - Pogba", "C20 - Vlasic", "C21 - Sabiri", "C22 - Fagioli", "C23 - Basic", "A24 - El Shaarawy", "A25 - Ibrahimovic", "A26 - Satriano", "A27 - De Luca"],
     //voti: [  1, 2,   3, 4, 5, 6, 7, 8,   9, 10,   11,   12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,  24, 25, 26, 27]
-      voti: [  0, 0, 5.5, 7, 0, 6, 0, 0, 5.5, 0,  11.5,  3.5,  0,  0,  0,  6,  0,  0,  0,  0,  0,  0,  0,  10,  0,  0,  0]
+      voti: [  0, 0, 6.5, 7, 0, 6, 0, 0, 5.5, 0,  11.5,  3.5,  0,  0,  0,  6,  0,  0,  0,  0,  0,  0,  0,  10,  0,  0,  0]
        
     },
     formazione2: {
